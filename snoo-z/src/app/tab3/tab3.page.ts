@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
-
+  recs = ["This is dummy data", "Sleep Earlier", "Sleep Later", "Stop caffeine intake"];
+  showing: boolean = true;
   constructor() {}
 
 }
