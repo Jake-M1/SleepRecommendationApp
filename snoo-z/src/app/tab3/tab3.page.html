@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
+    <ion-title class="title">
+      Recommendations
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,11 +9,11 @@
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+    <ion-toolbar width="100%">
+      <ion-title class="title" size="medium">Recommendations</ion-title>
     </ion-toolbar>
   </ion-header>
-  
+
   <ion-infinite-scroll *ngIf="showing" threshold="100px">
     <ion-infinite-scroll-content>
       <ion-card *ngFor="let rec of recs" color = "success">
