@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Trends
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,34 +9,61 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Trends</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block">D</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="block">W</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="block">M</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-infinite-scroll *ngIf="showing" threshold="100px">
+    <ion-infinite-scroll-content>
+      <ion-card *ngFor="let t of chartTitles" color="secondary">
+       <ion-card-header>
+         <ion-card-title>{{t}}</ion-card-title>
+       </ion-card-header>
+       <ion-card-content>
+        [graph here]
+       </ion-card-content>
+     </ion-card>
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+  <!-- <app-explore-container name="Tab 2 page"></app-explore-container> -->
 </ion-content>
 
 <ion-footer collapse="fade">
   <ion-toolbar>
     <ion-tabs>
       <ion-tab-bar slot="bottom">
-  
+
           <ion-tab-button href="/tab1">
             <ion-icon name="bed"></ion-icon>
             <ion-label>tap1</ion-label>
           </ion-tab-button>
-      
+
             <ion-tab-button href="/tab2">
               <ion-icon name="happy-outline"></ion-icon>
               <ion-label>tap2</ion-label>
             </ion-tab-button>
-            
+
             <ion-tab-button href="/tab3">
               <ion-icon name="analytics"></ion-icon>
               <ion-label>tap3</ion-label>
             </ion-tab-button>
-  
-      </ion-tab-bar>  
+
+      </ion-tab-bar>
   </ion-tabs>
   </ion-toolbar>
 </ion-footer>

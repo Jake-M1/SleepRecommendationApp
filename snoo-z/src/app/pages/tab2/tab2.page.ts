@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-
+  chartTitles = ["Sleep Quality", "Sleep Amount", "Activity", "Caffeine Intake"];
+  showing: boolean = true;
   constructor() {}
 
 }
