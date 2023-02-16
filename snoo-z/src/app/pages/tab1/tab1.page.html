@@ -1,5 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="logout()">
+        <ion-icon slot="icon-only" name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
     <ion-title>
       Tab 1
     </ion-title>
@@ -21,23 +26,23 @@
   <ion-toolbar>
     <ion-tabs>
       <ion-tab-bar slot="bottom">
-  
-          <ion-tab-button href="/tabl">
+
+          <ion-tab-button>
             <ion-icon name="bed"></ion-icon>
             <ion-label>tap1</ion-label>
           </ion-tab-button>
-      
-            <ion-tab-button href="/tab2">
+
+            <ion-tab-button routerLink="../tab2">
               <ion-icon name="happy-outline"></ion-icon>
               <ion-label>tap2</ion-label>
             </ion-tab-button>
-            
-            <ion-tab-button href="/tab3">
+
+            <ion-tab-button routerLink="../tab3">
               <ion-icon name="analytics"></ion-icon>
               <ion-label>tap3</ion-label>
             </ion-tab-button>
-  
-      </ion-tab-bar>  
+
+      </ion-tab-bar>
   </ion-tabs>
   </ion-toolbar>
 </ion-footer>

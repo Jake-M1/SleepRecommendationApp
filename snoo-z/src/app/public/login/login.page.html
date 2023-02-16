@@ -2,7 +2,6 @@
   <ion-toolbar>
     <ion-title>login</ion-title>
   </ion-toolbar>
-  <ion-button>Log In</ion-button>
 </ion-header>
 
 <ion-content>
@@ -23,5 +22,7 @@
     </ion-item>
   </ion-list>
 
-  <ion-button>Log In</ion-button>
+  <ion-button (click)="login()">LogIn</ion-button>
+  <ion-button color="secondary" routerLink="/register" routerDirection="forward">Register</ion-button>
+
 </ion-content>
