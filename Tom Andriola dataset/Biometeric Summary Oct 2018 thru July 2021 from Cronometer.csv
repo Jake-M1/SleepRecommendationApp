@@ -1,0 +1,1572 @@
+Day,Time,Group,Metric,Unit,Amount
+10/15/2018,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,92
+10/16/2018,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,51
+10/17/2018,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+10/18/2018,12:07 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+10/19/2018,12:02 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+10/20/2018,12:02 AM,Study Meal,Heart Rate (Apple Health),bpm,85
+10/21/2018,12:07 AM,Study Meal,Heart Rate (Apple Health),bpm,51
+10/22/2018,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+10/23/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+10/24/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,51
+10/25/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+10/26/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+10/27/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+10/28/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,69
+10/29/2018,12:04 AM,Study Meal,Heart Rate (Apple Health),bpm,51
+10/30/2018,12:05 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+10/31/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,68
+11/1/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+11/2/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+11/2/2018,1:30 PM,Study Meal,Weight (Apple Health),lbs,169
+11/3/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+11/3/2018,1:35 PM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,115
+11/3/2018,1:35 PM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,75
+11/4/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+11/4/2018,8:50 AM,Study Meal,Weight (Apple Health),lbs,167
+11/5/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,88
+11/5/2018,8:50 AM,Study Meal,Weight (Apple Health),lbs,169
+11/6/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+11/7/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+11/7/2018,1:29 PM,Study Meal,Weight (Apple Health),lbs,170
+11/8/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+11/8/2018,1:29 PM,Study Meal,Weight (Apple Health),lbs,171
+11/9/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,90
+11/10/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,101
+11/10/2018,10:14 AM,Study Meal,Weight (Apple Health),lbs,170
+11/10/2018,10:31 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,123
+11/10/2018,10:31 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,83
+11/11/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+11/11/2018,9:51 AM,Study Meal,Weight (Apple Health),lbs,169
+11/12/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+11/13/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+11/13/2018,6:00 AM,Study Meal,Weight (Apple Health),lbs,168
+11/14/2018,12:03 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+11/15/2018,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,61
+11/16/2018,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,103
+11/17/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+11/18/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+11/18/2018,7:11 AM,Study Meal,Weight (Apple Health),lbs,170
+11/19/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+11/19/2018,7:11 AM,Study Meal,Weight (Apple Health),lbs,169
+11/20/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,52
+11/21/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,51
+11/21/2018,10:34 PM,Study Meal,Weight (Apple Health),lbs,167
+11/22/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+11/23/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,65
+11/24/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+11/25/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+11/25/2018,10:35 PM,Study Meal,Weight (Apple Health),lbs,169
+11/26/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+11/26/2018,10:34 AM,Study Meal,Weight (Apple Health),lbs,170
+11/26/2018,10:35 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,126
+11/26/2018,10:35 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,84
+11/27/2018,,Study Meal,Weight,lbs,171
+11/27/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+11/28/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+11/28/2018,6:32 AM,Study Meal,Weight (Apple Health),lbs,171
+11/29/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+11/29/2018,6:32 AM,Study Meal,Weight (Apple Health),lbs,169
+11/30/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+11/30/2018,7:23 AM,Study Meal,Weight (Apple Health),lbs,171
+12/1/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+12/1/2018,7:23 AM,Study Meal,Weight (Apple Health),lbs,169
+12/2/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+12/2/2018,1:23 PM,Study Meal,Weight (Apple Health),lbs,167
+12/3/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,52
+12/4/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+12/5/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+12/6/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+12/7/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+12/8/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,61
+12/8/2018,10:43 AM,Study Meal,Weight (Apple Health),lbs,168
+12/8/2018,10:44 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,89
+12/8/2018,10:44 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,127
+12/9/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+12/10/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+12/11/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+12/13/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+12/14/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+12/15/2018,6:54 AM,Study Meal,Weight (Apple Health),lbs,170
+12/16/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+12/16/2018,6:54 AM,Study Meal,Weight (Apple Health),lbs,170
+12/17/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+12/17/2018,7:45 AM,Study Meal,Weight (Apple Health),lbs,171
+12/18/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+12/19/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+12/19/2018,6:26 AM,Study Meal,Weight (Apple Health),lbs,170
+12/19/2018,7:26 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,115
+12/19/2018,7:26 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,82
+12/20/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,49
+12/21/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+12/21/2018,7:03 AM,Study Meal,Weight (Apple Health),lbs,170
+12/22/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,68
+12/22/2018,7:03 AM,Study Meal,Weight (Apple Health),lbs,170
+12/23/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+12/24/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+12/25/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+12/26/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+12/26/2018,7:04 AM,Study Meal,Weight (Apple Health),lbs,170
+12/27/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+12/28/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+12/29/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+12/29/2018,8:57 AM,Study Meal,Weight (Apple Health),lbs,171
+12/30/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,65
+12/30/2018,8:57 AM,Study Meal,Weight (Apple Health),lbs,169
+12/31/2018,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+12/31/2018,9:30 AM,Study Meal,Weight (Apple Health),lbs,169
+1/1/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+1/2/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+1/3/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+1/4/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+1/4/2019,7:18 AM,Study Meal,Weight (Apple Health),lbs,171
+1/5/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,52
+1/5/2019,7:17 AM,Study Meal,Weight (Apple Health),lbs,172
+1/6/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,74
+1/6/2019,9:39 AM,Study Meal,Weight (Apple Health),lbs,171
+1/7/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,53
+1/7/2019,8:19 AM,Study Meal,Weight (Apple Health),lbs,169
+1/8/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,61
+1/9/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+1/10/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+1/11/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+1/12/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+1/12/2019,8:19 AM,Study Meal,Weight (Apple Health),lbs,169
+1/14/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+1/15/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+1/16/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,74
+1/16/2019,2:50 PM,Study Meal,Weight (Apple Health),lbs,170
+1/17/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+1/17/2019,7:25 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,113
+1/17/2019,7:25 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,80
+1/17/2019,7:34 AM,Study Meal,Weight (Apple Health),lbs,170
+1/18/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,79
+1/19/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,52
+1/19/2019,7:33 AM,Study Meal,Weight (Apple Health),lbs,167
+1/20/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+1/21/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+1/21/2019,6:28 AM,Study Meal,Weight (Apple Health),lbs,169
+1/22/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+1/23/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+1/24/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+1/25/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,51
+1/26/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+1/26/2019,12:40 PM,Study Meal,Weight (Apple Health),lbs,167
+1/27/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+1/27/2019,10:26 AM,Study Meal,Weight (Apple Health),lbs,168
+1/28/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+1/29/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+1/30/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,50
+1/31/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+1/31/2019,1:24 PM,Study Meal,Weight (Apple Health),lbs,168
+2/1/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+2/2/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+2/2/2019,1:10 PM,Study Meal,Weight (Apple Health),lbs,166
+2/3/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+2/3/2019,9:12 AM,Study Meal,Weight (Apple Health),lbs,168
+2/4/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/5/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+2/6/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/7/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+2/8/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,45
+2/9/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+2/10/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+2/10/2019,7:45 AM,Study Meal,Weight (Apple Health),lbs,170
+2/11/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/11/2019,7:44 AM,Study Meal,Weight (Apple Health),lbs,172
+2/12/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/12/2019,7:45 AM,Study Meal,Weight (Apple Health),lbs,170
+2/13/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,76
+2/13/2019,7:45 AM,Study Meal,Weight (Apple Health),lbs,169
+2/14/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+2/15/2019,11:50 PM,Study Meal,Heart Rate (Apple Health),bpm,61
+2/16/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+2/17/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/18/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/19/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+2/19/2019,6:39 AM,Study Meal,Weight (Apple Health),lbs,171
+2/20/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+2/21/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,53
+2/22/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+2/23/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,61
+2/24/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/24/2019,6:08 AM,Study Meal,Weight (Apple Health),lbs,169
+2/25/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+2/26/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,71
+2/26/2019,8:43 AM,Study Meal,Weight (Apple Health),lbs,172
+2/27/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+2/28/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,48
+3/1/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+3/2/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+3/3/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,74
+3/3/2019,7:57 AM,Study Meal,Weight (Apple Health),lbs,170
+3/4/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,50
+3/5/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+3/6/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,65
+3/7/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+3/8/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,68
+3/8/2019,7:12 AM,Study Meal,Weight (Apple Health),lbs,172
+3/9/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,65
+3/9/2019,7:12 AM,Study Meal,Weight (Apple Health),lbs,171
+3/9/2019,8:51 AM,Study Meal,Weight (Apple Health),lbs,169
+3/10/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+3/11/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+3/12/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+3/12/2019,7:21 AM,Study Meal,Weight (Apple Health),lbs,171
+3/12/2019,7:21 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,120
+3/12/2019,7:21 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,83
+3/12/2019,7:22 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,121
+3/12/2019,7:22 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,82
+3/12/2019,7:24 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,121
+3/12/2019,7:24 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,82
+3/13/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+3/14/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+3/15/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+3/16/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+3/17/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+3/17/2019,8:10 AM,Study Meal,Weight (Apple Health),lbs,171
+3/18/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+3/19/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,48
+3/20/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+3/21/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+3/21/2019,7:17 AM,Study Meal,Weight (Apple Health),lbs,170
+3/22/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+3/23/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+3/23/2019,8:14 AM,Study Meal,Weight (Apple Health),lbs,169
+3/24/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+3/24/2019,10:04 AM,Study Meal,Weight (Apple Health),lbs,170
+3/25/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+3/26/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+3/26/2019,7:11 AM,Study Meal,Weight (Apple Health),lbs,169
+3/27/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,168
+3/27/2019,7:30 AM,Study Meal,Weight (Apple Health),lbs,168
+3/28/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+3/29/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+3/29/2019,7:05 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,127
+3/29/2019,7:05 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,85
+3/29/2019,7:06 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,125
+3/29/2019,7:06 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,83
+3/29/2019,7:08 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,118
+3/29/2019,7:08 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,82
+3/30/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+3/30/2019,9:36 AM,Study Meal,Weight (Apple Health),lbs,168
+3/31/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+3/31/2019,9:36 AM,Study Meal,Weight (Apple Health),lbs,167
+4/1/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+4/1/2019,7:08 AM,Study Meal,Weight (Apple Health),lbs,170
+4/2/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+4/3/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+4/4/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,72
+4/6/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,81
+4/6/2019,8:46 AM,Study Meal,Weight (Apple Health),lbs,170
+4/7/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,100
+4/8/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+4/9/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+4/10/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+4/11/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+4/11/2019,7:04 AM,Study Meal,Weight (Apple Health),lbs,171
+4/12/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+4/13/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,70
+4/14/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,68
+4/15/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,65
+4/16/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+4/17/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,69
+4/18/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+4/19/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+4/20/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,70
+4/20/2019,6:54 AM,Study Meal,Weight (Apple Health),lbs,171
+4/21/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+4/21/2019,6:53 AM,Study Meal,Weight (Apple Health),lbs,170
+4/22/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+4/23/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,54
+4/24/2019,12:01 AM,Study Meal,Heart Rate (Apple Health),bpm,90
+4/24/2019,9:23 AM,Study Meal,Weight (Apple Health),lbs,169
+4/25/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+4/26/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+4/27/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+4/28/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+4/29/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+4/30/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,50
+4/30/2019,6:03 AM,Study Meal,Weight (Apple Health),lbs,171
+5/1/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,62
+5/1/2019,7:23 AM,Study Meal,Weight (Apple Health),lbs,172
+5/2/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+5/2/2019,6:36 AM,Study Meal,Weight (Apple Health),lbs,169
+5/3/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,73
+5/3/2019,7:05 AM,Study Meal,Weight (Apple Health),lbs,169
+5/3/2019,10:05 AM,Study Meal,Weight (Apple Health),lbs,168
+5/4/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,53
+5/4/2019,9:15 AM,Study Meal,Weight (Apple Health),lbs,166
+5/5/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,73.5632
+5/5/2019,9:54 AM,Study Meal,Weight (Apple Health),lbs,167
+5/11/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,80.3045
+5/11/2019,9:08 AM,Study Meal,Weight (Apple Health),lbs,167
+5/12/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,72.3781
+5/12/2019,9:08 AM,Study Meal,Weight (Apple Health),lbs,168
+5/13/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,65
+5/14/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,52
+5/15/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+5/16/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,68.6934
+5/17/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,71.7439
+5/18/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,81.4025
+5/18/2019,8:44 AM,Study Meal,Weight (Apple Health),lbs,169
+5/19/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,72.768
+5/20/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,82.7321
+5/21/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,76.5443
+5/22/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,81.3613
+5/23/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,70.8835
+5/24/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,67.3634
+5/25/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,67.946
+5/26/2019,12:00 AM,Study Meal,Heart Rate (Apple Health),bpm,74.842
+5/27/2019,12:02 AM,Study Meal,Heart Rate (Apple Health),bpm,70.6455
+5/28/2019,12:06 AM,Study Meal,Heart Rate (Apple Health),bpm,65.8654
+5/29/2019,12:03 AM,Study Meal,Heart Rate (Apple Health),bpm,71.3091
+5/30/2019,12:03 AM,Study Meal,Heart Rate (Apple Health),bpm,73.7446
+5/31/2019,5:11 AM,Study Meal,Heart Rate (Apple Health),bpm,81.6569
+5/31/2019,6:45 AM,Study Meal,Weight (Apple Health),lbs,167
+6/1/2019,6:53 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,86
+6/1/2019,6:53 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,126
+6/1/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,70
+6/2/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,52
+6/3/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+6/4/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+6/5/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+6/6/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+6/7/2019,3:45 PM,Study Meal,Heart Rate (Apple Health),bpm,67
+6/8/2019,12:36 PM,Study Meal,Weight (Apple Health),lbs,167
+6/9/2019,9:02 AM,Study Meal,Weight (Apple Health),lbs,168
+6/9/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,67
+6/10/2019,9:27 AM,Study Meal,Diastolic Blood Pressure (Apple Health),mmHg,74
+6/10/2019,9:27 AM,Study Meal,Systolic Blood Pressure (Apple Health),mmHg,118
+6/10/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,56
+6/11/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+6/12/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+6/13/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+6/14/2019,8:02 AM,Study Meal,Weight (Apple Health),lbs,167
+6/14/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,49
+6/15/2019,9:12 AM,Study Meal,Weight (Apple Health),lbs,165
+6/15/2019,9:45 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+6/16/2019,9:36 AM,Study Meal,Weight (Apple Health),lbs,164
+6/16/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+6/17/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+6/18/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,53
+6/19/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+6/20/2019,10:17 AM,Study Meal,Weight (Apple Health),lbs,167
+6/20/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+6/21/2019,10:16 AM,Study Meal,Weight (Apple Health),lbs,166
+6/21/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+6/22/2019,10:15 AM,Study Meal,Weight (Apple Health),lbs,165
+6/22/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,70
+6/23/2019,7:23 AM,Study Meal,Weight (Apple Health),lbs,167
+6/23/2019,1:24 PM,Study Meal,Weight (Apple Health),lbs,165
+6/23/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+6/24/2019,7:02 AM,Study Meal,Weight (Apple Health),lbs,166
+6/24/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,48
+6/25/2019,7:15 AM,Study Meal,Weight (Apple Health),lbs,166
+6/25/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+6/26/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+6/27/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+6/28/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+6/29/2019,9:19 AM,Study Meal,Weight (Apple Health),lbs,166
+6/29/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,70
+6/30/2019,9:30 AM,Study Meal,Weight (Apple Health),lbs,166
+6/30/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+7/1/2019,7:27 AM,Study Meal,Weight (Apple Health),lbs,168
+7/1/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+7/2/2019,7:11 AM,Study Meal,Weight (Apple Health),lbs,167
+7/2/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,56
+7/3/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+7/4/2019,9:43 AM,Study Meal,Weight (Apple Health),lbs,164
+7/4/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,77
+7/5/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+7/6/2019,10:00 AM,Study Meal,Weight (Apple Health),lbs,165
+7/6/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+7/7/2019,11:00 AM,Study Meal,Weight (Apple Health),lbs,164
+7/7/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+7/8/2019,5:23 AM,Study Meal,Weight (Apple Health),lbs,166
+7/8/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+7/9/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+7/10/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+7/11/2019,7:14 AM,Study Meal,Weight (Apple Health),lbs,165
+7/11/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+7/12/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+7/13/2019,9:06 AM,Study Meal,Weight (Apple Health),lbs,165
+7/13/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+7/14/2019,8:57 AM,Study Meal,Weight (Apple Health),lbs,165
+7/14/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+7/15/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+7/16/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,71
+7/17/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,49
+7/18/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,72
+7/19/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,65
+7/20/2019,9:04 AM,Study Meal,Weight (Apple Health),lbs,165
+7/20/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,74
+7/21/2019,9:04 AM,Study Meal,Weight (Apple Health),lbs,165
+7/21/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+7/22/2019,7:06 AM,Study Meal,Weight (Apple Health),lbs,166
+7/22/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+7/23/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+7/24/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,51
+7/25/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+7/26/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+7/27/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,51
+7/28/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+7/29/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+7/30/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+7/31/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,87
+8/1/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+8/2/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+8/3/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+8/4/2019,9:55 PM,Study Meal,Heart Rate (Apple Health),bpm,88
+8/5/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+8/6/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,52
+8/7/2019,8:24 AM,Study Meal,Weight (Apple Health),lbs,166
+8/7/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,53
+8/8/2019,8:24 AM,Study Meal,Weight (Apple Health),lbs,165
+8/8/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+8/9/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+8/10/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,82
+8/11/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,64
+8/12/2019,7:52 AM,Study Meal,Weight (Apple Health),lbs,166
+8/12/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+8/13/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+8/14/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,66
+8/15/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+8/16/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+8/17/2019,9:08 AM,Study Meal,Weight (Apple Health),lbs,163
+8/17/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+8/18/2019,8:45 AM,Study Meal,Weight (Apple Health),lbs,164
+8/18/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+8/19/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,50
+8/20/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+8/21/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+8/22/2019,7:40 AM,Study Meal,Weight (Apple Health),lbs,163
+8/22/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+8/23/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+8/24/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,71
+8/25/2019,9:17 AM,Study Meal,Weight (Apple Health),lbs,164
+8/25/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+8/26/2019,8:06 PM,Study Meal,Heart Rate (Apple Health),bpm,101
+8/27/2019,8:38 AM,Study Meal,Weight (Apple Health),lbs,165
+8/27/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,49
+8/28/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+8/29/2019,7:04 AM,Study Meal,Weight (Apple Health),lbs,164
+8/29/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+8/30/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+8/31/2019,8:30 AM,Study Meal,Weight (Apple Health),lbs,163
+8/31/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+9/1/2019,9:39 AM,Study Meal,Weight (Apple Health),lbs,162
+9/1/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+9/2/2019,9:00 AM,Study Meal,Weight (Apple Health),lbs,163
+9/2/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,65
+9/3/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+9/4/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+9/5/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+9/6/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+9/7/2019,10:00 AM,Study Meal,Weight (Apple Health),lbs,162
+9/7/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,56
+9/8/2019,8:51 AM,Study Meal,Weight (Apple Health),lbs,163
+9/8/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+9/9/2019,7:13 AM,Study Meal,Weight (Apple Health),lbs,164
+9/9/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,66
+9/10/2019,7:27 AM,Study Meal,Weight (Apple Health),lbs,164
+9/10/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+9/11/2019,7:27 AM,Study Meal,Weight (Apple Health),lbs,164
+9/11/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+9/12/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+9/13/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+9/14/2019,10:41 AM,Study Meal,Weight (Apple Health),lbs,163
+9/14/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+9/15/2019,9:01 AM,Study Meal,Weight (Apple Health),lbs,163
+9/15/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+9/16/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,49
+9/17/2019,10:16 PM,Study Meal,Heart Rate (Apple Health),bpm,99
+9/18/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,53
+9/19/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,46
+9/20/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+9/21/2019,9:38 AM,Study Meal,Weight (Apple Health),lbs,162
+9/21/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,56
+9/22/2019,9:00 AM,Study Meal,Weight (Apple Health),lbs,162
+9/22/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,52
+9/23/2019,8:25 PM,Study Meal,Heart Rate (Apple Health),bpm,78
+9/24/2019,10:04 AM,Study Meal,Weight (Apple Health),lbs,162
+9/24/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+9/25/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,70
+9/26/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+9/27/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,70
+9/28/2019,8:30 AM,Study Meal,Weight (Apple Health),lbs,160
+9/28/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+9/29/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,53
+9/30/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,61
+10/1/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,51
+10/2/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,104
+10/3/2019,9:19 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+10/7/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,66
+10/8/2019,5:56 AM,Study Meal,Heart Rate (Apple Health),bpm,52
+10/23/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,61
+12/17/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+12/18/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+12/19/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,118
+12/30/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+12/31/2019,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,102
+1/1/2020,2:06 PM,Study Meal,Heart Rate (Apple Health),bpm,69
+1/2/2020,6:10 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+1/3/2020,8:06 PM,Study Meal,Heart Rate (Apple Health),bpm,115
+1/4/2020,10:41 AM,Study Meal,Heart Rate (Apple Health),bpm,91
+1/4/2020,1:49 PM,Study Meal,Weight (Apple Health),lbs,165
+1/5/2020,2:38 PM,Study Meal,Heart Rate (Apple Health),bpm,72
+1/5/2020,4:05 PM,Study Meal,Height (Apple Health),in,68.8976
+1/5/2020,4:05 PM,Study Meal,Height (Apple Health),in,68.8976
+1/5/2020,4:06 PM,Study Meal,Body Fat (Apple Health),%,14.6191
+1/5/2020,4:06 PM,Study Meal,Weight (Apple Health),lbs,172.842
+1/5/2020,4:07 PM,Study Meal,Body Fat (Apple Health),%,14.6191
+1/5/2020,4:07 PM,Study Meal,Weight (Apple Health),lbs,172.842
+1/5/2020,4:07 PM,Study Meal,Weight (Apple Health),lbs,168.874
+1/5/2020,4:07 PM,Study Meal,Body Fat (Apple Health),%,14.166
+1/6/2020,6:40 AM,Study Meal,Body Fat (Apple Health),%,13.9701
+1/6/2020,6:40 AM,Study Meal,Weight (Apple Health),lbs,167.221
+1/6/2020,6:41 AM,Study Meal,Body Fat (Apple Health),%,13.9701
+1/6/2020,6:41 AM,Study Meal,Weight (Apple Health),lbs,167.221
+1/6/2020,8:59 AM,Study Meal,Heart Rate (Apple Health),bpm,111
+1/7/2020,6:10 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+1/7/2020,6:18 AM,Study Meal,Weight (Apple Health),lbs,165.677
+1/7/2020,6:18 AM,Study Meal,Body Fat (Apple Health),%,13.8082
+1/8/2020,6:36 AM,Study Meal,Body Fat (Apple Health),%,13.8082
+1/8/2020,6:36 AM,Study Meal,Weight (Apple Health),lbs,165.677
+1/8/2020,7:48 AM,Study Meal,Heart Rate (Apple Health),bpm,64
+1/9/2020,7:28 AM,Study Meal,Body Fat (Apple Health),%,13.6177
+1/9/2020,7:28 AM,Study Meal,Weight (Apple Health),lbs,164.134
+1/9/2020,11:32 AM,Study Meal,Heart Rate (Apple Health),bpm,109
+1/10/2020,7:04 AM,Study Meal,Weight (Apple Health),lbs,164.024
+1/10/2020,7:04 AM,Study Meal,Weight (Apple Health),lbs,164.024
+1/10/2020,7:04 AM,Study Meal,Body Fat (Apple Health),%,13.6122
+1/10/2020,7:04 AM,Study Meal,Body Fat (Apple Health),%,13.6122
+1/10/2020,7:04 AM,Study Meal,Weight (Apple Health),lbs,164.024
+1/10/2020,7:04 AM,Study Meal,Body Fat (Apple Health),%,13.6122
+1/10/2020,8:34 AM,Study Meal,Heart Rate (Apple Health),bpm,137
+1/11/2020,8:55 AM,Study Meal,Heart Rate (Apple Health),bpm,110
+1/12/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+1/13/2020,10:22 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+1/14/2020,6:26 AM,Study Meal,Weight (Apple Health),lbs,164.685
+1/14/2020,6:26 AM,Study Meal,Body Fat (Apple Health),%,13.702
+1/14/2020,10:59 AM,Study Meal,Heart Rate (Apple Health),bpm,93
+1/15/2020,6:08 AM,Study Meal,Weight (Apple Health),lbs,164.685
+1/15/2020,6:08 AM,Study Meal,Body Fat (Apple Health),%,13.702
+1/15/2020,11:37 AM,Study Meal,Heart Rate (Apple Health),bpm,68
+1/16/2020,7:07 AM,Study Meal,Heart Rate (Apple Health),bpm,81
+1/16/2020,7:07 AM,Study Meal,Body Fat (Apple Health),%,13.4558
+1/16/2020,7:07 AM,Study Meal,Weight (Apple Health),lbs,162.591
+1/17/2020,6:06 AM,Study Meal,Body Fat (Apple Health),%,13.6068
+1/17/2020,6:06 AM,Study Meal,Weight (Apple Health),lbs,163.914
+1/17/2020,9:23 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+1/18/2020,9:32 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+1/19/2020,7:11 AM,Study Meal,Heart Rate (Apple Health),bpm,83
+1/20/2020,9:48 AM,Study Meal,Heart Rate (Apple Health),bpm,94
+1/21/2020,9:44 AM,Study Meal,Heart Rate (Apple Health),bpm,139
+1/22/2020,5:54 AM,Study Meal,Heart Rate (Apple Health),bpm,93
+1/22/2020,7:05 AM,Study Meal,Weight (Apple Health),lbs,165.567
+1/22/2020,7:05 AM,Study Meal,Body Fat (Apple Health),%,13.8027
+1/23/2020,7:10 AM,Study Meal,Weight (Apple Health),lbs,164.134
+1/23/2020,7:10 AM,Study Meal,Body Fat (Apple Health),%,13.6177
+1/23/2020,5:02 PM,Study Meal,Heart Rate (Apple Health),bpm,90
+1/24/2020,6:38 AM,Study Meal,Weight (Apple Health),lbs,165.347
+1/24/2020,6:38 AM,Study Meal,Body Fat (Apple Health),%,13.7633
+1/24/2020,6:38 PM,Study Meal,Heart Rate (Apple Health),bpm,84
+1/25/2020,9:57 AM,Study Meal,Weight (Apple Health),lbs,163
+1/25/2020,9:58 AM,Study Meal,Heart Rate (Apple Health),bpm,71
+1/26/2020,9:05 AM,Study Meal,Heart Rate (Apple Health),bpm,79
+1/27/2020,9:58 AM,Study Meal,Heart Rate (Apple Health),bpm,81
+1/28/2020,7:16 AM,Study Meal,Weight (Apple Health),lbs,164.796
+1/28/2020,7:16 AM,Study Meal,Body Fat (Apple Health),%,13.7075
+1/28/2020,8:58 AM,Study Meal,Heart Rate (Apple Health),bpm,90
+1/29/2020,5:46 AM,Study Meal,Body Fat (Apple Health),%,13.9034
+1/29/2020,5:46 AM,Study Meal,Weight (Apple Health),lbs,166.449
+1/29/2020,9:43 AM,Study Meal,Heart Rate (Apple Health),bpm,81
+1/30/2020,6:55 AM,Study Meal,Weight (Apple Health),lbs,164.465
+1/30/2020,6:55 AM,Study Meal,Body Fat (Apple Health),%,13.6626
+1/30/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,61
+1/31/2020,6:32 AM,Study Meal,Weight (Apple Health),lbs,168.984
+1/31/2020,6:32 AM,Study Meal,Body Fat (Apple Health),%,14.1714
+1/31/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+2/1/2020,12:46 PM,Study Meal,Heart Rate (Apple Health),bpm,90
+2/2/2020,11:17 AM,Study Meal,Heart Rate (Apple Health),bpm,126
+2/2/2020,5:03 PM,Study Meal,Weight (Apple Health),lbs,164
+2/3/2020,10:10 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+2/4/2020,5:58 AM,Study Meal,Weight (Apple Health),lbs,163.583
+2/4/2020,5:58 AM,Study Meal,Body Fat (Apple Health),%,13.5619
+2/4/2020,9:25 AM,Study Meal,Heart Rate (Apple Health),bpm,86
+2/5/2020,5:40 AM,Study Meal,Body Fat (Apple Health),%,13.6517
+2/5/2020,5:40 AM,Study Meal,Weight (Apple Health),lbs,164.244
+2/5/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+2/6/2020,7:17 AM,Study Meal,Body Fat (Apple Health),%,13.4163
+2/6/2020,7:17 AM,Study Meal,Weight (Apple Health),lbs,162.37
+2/6/2020,11:15 AM,Study Meal,Heart Rate (Apple Health),bpm,74
+2/7/2020,7:01 AM,Study Meal,Body Fat (Apple Health),%,13.4
+2/7/2020,7:01 AM,Study Meal,Weight (Apple Health),lbs,162.04
+2/7/2020,11:34 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+2/8/2020,6:01 AM,Study Meal,Weight (Apple Health),lbs,164.134
+2/8/2020,6:01 AM,Study Meal,Body Fat (Apple Health),%,13.6177
+2/8/2020,2:40 PM,Study Meal,Heart Rate (Apple Health),bpm,75
+2/9/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+2/10/2020,6:58 AM,Study Meal,Heart Rate (Apple Health),bpm,100
+2/10/2020,7:00 AM,Study Meal,Body Fat (Apple Health),%,13.517
+2/10/2020,7:00 AM,Study Meal,Weight (Apple Health),lbs,163.252
+2/11/2020,6:07 AM,Study Meal,Weight (Apple Health),lbs,164.024
+2/11/2020,6:07 AM,Study Meal,Body Fat (Apple Health),%,13.6122
+2/11/2020,12:48 PM,Study Meal,Heart Rate (Apple Health),bpm,81
+2/12/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/13/2020,6:59 AM,Study Meal,Weight (Apple Health),lbs,162.37
+2/13/2020,6:59 AM,Study Meal,Body Fat (Apple Health),%,13.4163
+2/13/2020,9:56 AM,Study Meal,Heart Rate (Apple Health),bpm,75
+2/14/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+2/15/2020,1:48 PM,Study Meal,Weight (Apple Health),lbs,163
+2/15/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,66
+2/16/2020,3:22 PM,Study Meal,Heart Rate (Apple Health),bpm,81
+2/17/2020,8:25 AM,Study Meal,Heart Rate (Apple Health),bpm,90
+2/18/2020,6:32 AM,Study Meal,Weight (Apple Health),lbs,165.567
+2/18/2020,6:32 AM,Study Meal,Body Fat (Apple Health),%,13.8027
+2/18/2020,9:11 AM,Study Meal,Heart Rate (Apple Health),bpm,75
+2/19/2020,6:44 AM,Study Meal,Body Fat (Apple Health),%,13.551
+2/19/2020,6:44 AM,Study Meal,Weight (Apple Health),lbs,163.363
+2/19/2020,9:54 AM,Study Meal,Heart Rate (Apple Health),bpm,67
+2/20/2020,2:11 PM,Study Meal,Heart Rate (Apple Health),bpm,87
+2/21/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+2/22/2020,8:39 AM,Study Meal,Weight (Apple Health),lbs,163
+2/22/2020,3:31 PM,Study Meal,Heart Rate (Apple Health),bpm,72
+2/23/2020,3:25 PM,Study Meal,Heart Rate (Apple Health),bpm,69
+2/24/2020,8:48 AM,Study Meal,Heart Rate (Apple Health),bpm,112
+2/25/2020,6:50 AM,Study Meal,Weight (Apple Health),lbs,161.709
+2/25/2020,6:50 AM,Study Meal,Body Fat (Apple Health),%,13.3551
+2/26/2020,6:16 AM,Study Meal,Body Fat (Apple Health),%,13.4721
+2/26/2020,6:16 AM,Study Meal,Weight (Apple Health),lbs,162.922
+2/27/2020,7:21 AM,Study Meal,Body Fat (Apple Health),%,13.5061
+2/27/2020,7:21 AM,Study Meal,Weight (Apple Health),lbs,163.032
+2/28/2020,6:58 AM,Study Meal,Weight (Apple Health),lbs,163.473
+2/28/2020,6:58 AM,Study Meal,Body Fat (Apple Health),%,13.5565
+2/28/2020,9:38 PM,Study Meal,Heart Rate (Apple Health),bpm,72
+2/29/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,72
+3/1/2020,9:07 AM,Study Meal,Weight (Apple Health),lbs,163.8
+3/1/2020,4:56 PM,Study Meal,Heart Rate (Apple Health),bpm,66
+3/2/2020,12:55 PM,Study Meal,Heart Rate (Apple Health),bpm,133
+3/3/2020,5:11 AM,Study Meal,Body Fat (Apple Health),%,13.6231
+3/3/2020,5:11 AM,Study Meal,Weight (Apple Health),lbs,164.244
+3/3/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,85
+3/4/2020,5:41 AM,Study Meal,Weight (Apple Health),lbs,164.024
+3/4/2020,5:41 AM,Study Meal,Body Fat (Apple Health),%,13.6122
+3/4/2020,7:02 AM,Study Meal,Heart Rate (Apple Health),bpm,102
+3/5/2020,7:08 AM,Study Meal,Heart Rate (Apple Health),bpm,115
+3/5/2020,7:15 AM,Study Meal,Weight (Apple Health),lbs,162.591
+3/5/2020,7:15 AM,Study Meal,Body Fat (Apple Health),%,13.4558
+3/6/2020,7:58 AM,Study Meal,Weight (Apple Health),lbs,163
+3/6/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,51
+3/7/2020,9:42 AM,Study Meal,Weight (Apple Health),lbs,163
+3/7/2020,8:18 PM,Study Meal,Heart Rate (Apple Health),bpm,84
+3/9/2020,12:59 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+3/10/2020,6:51 AM,Study Meal,Body Fat (Apple Health),%,14.0095
+3/10/2020,6:51 AM,Study Meal,Weight (Apple Health),lbs,167.441
+3/10/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+3/11/2020,7:07 AM,Study Meal,Heart Rate (Apple Health),bpm,110
+3/11/2020,7:15 AM,Study Meal,Body Fat (Apple Health),%,13.7578
+3/11/2020,7:15 AM,Study Meal,Weight (Apple Health),lbs,165.236
+3/12/2020,7:07 AM,Study Meal,Body Fat (Apple Health),%,13.7633
+3/12/2020,7:07 AM,Study Meal,Weight (Apple Health),lbs,165.347
+3/12/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,65
+3/13/2020,7:06 AM,Study Meal,Body Fat (Apple Health),%,13.8694
+3/13/2020,7:06 AM,Study Meal,Weight (Apple Health),lbs,166.339
+3/13/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,57
+3/14/2020,6:09 PM,Study Meal,Heart Rate (Apple Health),bpm,76
+3/15/2020,8:23 AM,Study Meal,Weight (Apple Health),lbs,163
+3/15/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+3/16/2020,8:23 AM,Study Meal,Weight (Apple Health),lbs,164
+3/16/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+3/17/2020,7:12 AM,Study Meal,Body Fat (Apple Health),%,13.6571
+3/17/2020,7:12 AM,Study Meal,Weight (Apple Health),lbs,164.355
+3/17/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+3/18/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,61
+3/19/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+3/20/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+3/21/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+3/22/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,59
+3/23/2020,7:42 PM,Study Meal,Heart Rate (Apple Health),bpm,68
+3/24/2020,9:27 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+3/25/2020,10:12 PM,Study Meal,Heart Rate (Apple Health),bpm,89
+3/26/2020,10:09 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+3/27/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+3/28/2020,11:07 AM,Study Meal,Heart Rate (Apple Health),bpm,85
+3/28/2020,12:03 PM,Study Meal,Weight (Apple Health),lbs,164
+3/29/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,61
+3/30/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+3/31/2020,2:08 PM,Study Meal,Heart Rate (Apple Health),bpm,69
+4/1/2020,6:28 PM,Study Meal,Heart Rate (Apple Health),bpm,56
+4/2/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,54
+4/4/2020,8:21 AM,Study Meal,Weight (Apple Health),lbs,164
+4/5/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,68
+4/6/2020,7:04 PM,Study Meal,Heart Rate (Apple Health),bpm,74
+4/7/2020,11:58 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+4/8/2020,8:48 AM,Study Meal,Heart Rate (Apple Health),bpm,71
+4/9/2020,8:17 AM,Study Meal,Weight (Apple Health),lbs,166
+4/9/2020,10:11 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+4/10/2020,1:20 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+4/11/2020,8:53 AM,Study Meal,Weight (Apple Health),lbs,166
+4/11/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,53
+4/12/2020,8:24 PM,Study Meal,Heart Rate (Apple Health),bpm,61
+4/13/2020,10:21 PM,Study Meal,Height (Apple Health),in,71.2598
+4/13/2020,10:21 PM,Study Meal,Height (Apple Health),in,69.2913
+4/13/2020,10:22 PM,Study Meal,Weight (Apple Health),lbs,166
+4/13/2020,10:22 PM,Study Meal,Height (Apple Health),in,69
+4/13/2020,11:56 PM,Study Meal,Heart Rate (Apple Health),bpm,58
+4/14/2020,5:56 AM,Study Meal,Heart Rate (Apple Health),bpm,63
+4/15/2020,6:01 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+4/16/2020,5:52 AM,Study Meal,Heart Rate (Apple Health),bpm,52
+4/17/2020,6:54 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+4/17/2020,7:48 AM,Study Meal,Weight (Apple Health),lbs,165
+4/18/2020,6:46 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+4/18/2020,8:40 AM,Study Meal,Weight (Apple Health),lbs,164
+4/19/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,62
+4/20/2020,5:54 AM,Study Meal,Heart Rate (Apple Health),bpm,61
+4/21/2020,6:04 AM,Study Meal,Heart Rate (Apple Health),bpm,56
+4/22/2020,6:01 AM,Study Meal,Heart Rate (Apple Health),bpm,58
+4/23/2020,6:24 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+4/23/2020,8:51 AM,Study Meal,Weight (Apple Health),lbs,166
+4/24/2020,6:05 AM,Study Meal,Heart Rate (Apple Health),bpm,59
+4/25/2020,5:46 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+4/26/2020,7:24 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+4/27/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+4/28/2020,6:39 AM,Study Meal,Heart Rate (Apple Health),bpm,101
+4/29/2020,6:54 AM,Study Meal,Heart Rate (Apple Health),bpm,88
+4/29/2020,7:50 AM,Study Meal,Weight (Apple Health),lbs,167
+4/30/2020,4:11 PM,Study Meal,Heart Rate (Apple Health),bpm,63
+5/1/2020,11:00 AM,Study Meal,Heart Rate (Apple Health),bpm,111
+5/1/2020,12:53 PM,Study Meal,Weight (Apple Health),lbs,167
+5/2/2020,8:50 AM,Study Meal,Heart Rate (Apple Health),bpm,91
+5/3/2020,7:31 AM,Study Meal,Heart Rate (Apple Health),bpm,128
+5/4/2020,10:23 AM,Study Meal,Heart Rate (Apple Health),bpm,94
+5/5/2020,10:28 AM,Study Meal,Weight (Apple Health),lbs,168
+5/5/2020,11:59 PM,Study Meal,Heart Rate (Apple Health),bpm,55
+5/6/2020,5:54 AM,Study Meal,Heart Rate (Apple Health),bpm,61
+5/7/2020,6:39 AM,Study Meal,Heart Rate (Apple Health),bpm,55
+5/7/2020,9:44 AM,Study Meal,Weight (Apple Health),lbs,166
+5/8/2020,3:48 PM,Study Meal,Heart Rate (Apple Health),bpm,67
+5/9/2020,6:52 AM,Study Meal,Heart Rate (Apple Health),bpm,57
+5/9/2020,9:44 AM,Study Meal,Weight (Apple Health),lbs,166
+5/10/2020,10:18 AM,Study Meal,Weight (Apple Health),lbs,165
+5/10/2020,12:58 PM,Study Meal,Heart Rate (Apple Health),bpm,60
+5/11/2020,11:28 AM,Study Meal,Heart Rate (Apple Health),bpm,66
+5/12/2020,6:04 AM,Study Meal,Heart Rate (Apple Health),bpm,60
+5/13/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,77
+5/14/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,57
+5/15/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,65
+5/16/2020,8:30 AM,Misc,Heart Rate (Apple Health),bpm,56
+5/16/2020,10:24 AM,Misc,Weight (Apple Health),lbs,165
+5/17/2020,7:09 AM,Misc,Heart Rate (Apple Health),bpm,58
+5/18/2020,5:58 AM,Misc,Heart Rate (Apple Health),bpm,58
+5/18/2020,11:14 AM,Misc,Weight (Apple Health),lbs,165
+5/19/2020,5:57 AM,Misc,Heart Rate (Apple Health),bpm,61
+5/19/2020,8:15 AM,Misc,Weight (Apple Health),lbs,165
+5/20/2020,5:59 AM,Misc,Heart Rate (Apple Health),bpm,61
+5/21/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,60
+5/22/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,60
+5/23/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,54
+5/24/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,49
+5/25/2020,5:13 AM,Misc,Heart Rate (Apple Health),bpm,53
+5/26/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,58
+5/27/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,59
+5/28/2020,5:14 AM,Misc,Heart Rate (Apple Health),bpm,60
+5/29/2020,6:00 AM,Misc,Heart Rate (Apple Health),bpm,59
+5/30/2020,6:55 AM,Misc,Heart Rate (Apple Health),bpm,51
+5/30/2020,8:44 AM,Misc,Weight (Apple Health),lbs,166
+5/31/2020,9:16 PM,Misc,Heart Rate (Apple Health),bpm,68
+6/2/2020,5:40 AM,Misc,Heart Rate (Apple Health),bpm,59
+6/3/2020,5:42 AM,Misc,Heart Rate (Apple Health),bpm,55
+6/3/2020,7:22 AM,Misc,Weight (Apple Health),lbs,165
+6/4/2020,5:45 AM,Misc,Heart Rate (Apple Health),bpm,59
+6/5/2020,5:48 AM,Misc,Heart Rate (Apple Health),bpm,60
+6/6/2020,6:26 AM,Misc,Heart Rate (Apple Health),bpm,59
+6/7/2020,6:45 AM,Misc,Heart Rate (Apple Health),bpm,50
+6/8/2020,5:28 AM,Misc,Heart Rate (Apple Health),bpm,56
+6/8/2020,6:47 AM,Misc,Weight (Apple Health),lbs,165
+6/9/2020,5:29 AM,Misc,Heart Rate (Apple Health),bpm,58
+6/10/2020,5:41 AM,Misc,Heart Rate (Apple Health),bpm,53
+6/10/2020,7:44 AM,Misc,Weight (Apple Health),lbs,165
+6/11/2020,5:31 AM,Misc,Heart Rate (Apple Health),bpm,52
+6/12/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,53
+6/13/2020,6:25 AM,Misc,Heart Rate (Apple Health),bpm,57
+6/14/2020,6:59 AM,Misc,Heart Rate (Apple Health),bpm,54
+6/14/2020,8:18 AM,Misc,Weight (Apple Health),lbs,166
+6/15/2020,5:08 AM,Misc,Heart Rate (Apple Health),bpm,49
+6/16/2020,5:19 AM,Misc,Heart Rate (Apple Health),bpm,52
+6/17/2020,6:12 AM,Misc,Heart Rate (Apple Health),bpm,61
+6/17/2020,7:53 AM,Misc,Weight (Apple Health),lbs,166
+6/18/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,59
+6/19/2020,5:36 AM,Misc,Heart Rate (Apple Health),bpm,58
+6/20/2020,7:20 AM,Misc,Heart Rate (Apple Health),bpm,58
+6/21/2020,8:13 AM,Misc,Heart Rate (Apple Health),bpm,59
+6/21/2020,9:14 AM,Misc,Weight (Apple Health),lbs,166
+6/22/2020,5:37 AM,Misc,Heart Rate (Apple Health),bpm,64
+6/23/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,53
+6/24/2020,6:12 AM,Misc,Heart Rate (Apple Health),bpm,66
+6/25/2020,11:59 PM,Misc,Heart Rate (Apple Health),bpm,54
+6/26/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,60
+6/27/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,51
+6/28/2020,6:53 AM,Misc,Heart Rate (Apple Health),bpm,51
+6/29/2020,5:22 AM,Misc,Heart Rate (Apple Health),bpm,50
+6/30/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,54
+7/1/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,60
+7/2/2020,6:21 AM,Misc,Heart Rate (Apple Health),bpm,57
+7/3/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,68
+7/4/2020,6:33 AM,Misc,Heart Rate (Apple Health),bpm,50
+7/5/2020,1:24 PM,Misc,Heart Rate (Apple Health),bpm,66
+7/6/2020,5:46 AM,Misc,Heart Rate (Apple Health),bpm,56
+7/6/2020,7:40 AM,Misc,Weight (Apple Health),lbs,163
+7/7/2020,5:44 AM,Misc,Heart Rate (Apple Health),bpm,56
+7/8/2020,5:44 AM,Misc,Heart Rate (Apple Health),bpm,56
+7/8/2020,6:46 AM,Misc,Weight (Apple Health),lbs,163
+7/9/2020,6:58 AM,Misc,Weight (Apple Health),lbs,166.669
+7/9/2020,6:58 AM,Misc,Body Fat (Apple Health),%,13.9429
+7/9/2020,7:14 AM,Misc,Weight (Apple Health),lbs,164.024
+7/9/2020,7:14 AM,Misc,Body Fat (Apple Health),%,13.6408
+7/9/2020,5:54 PM,Misc,Heart Rate (Apple Health),bpm,60
+7/10/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,55
+7/11/2020,6:18 AM,Misc,Heart Rate (Apple Health),bpm,54
+7/11/2020,7:59 AM,Misc,Weight (Apple Health),lbs,163.693
+7/11/2020,7:59 AM,Misc,Body Fat (Apple Health),%,13.5959
+7/12/2020,5:34 AM,Misc,Heart Rate (Apple Health),bpm,51
+7/12/2020,7:43 AM,Misc,Body Fat (Apple Health),%,13.5347
+7/12/2020,7:43 AM,Misc,Weight (Apple Health),lbs,163.032
+7/13/2020,5:24 AM,Misc,Heart Rate (Apple Health),bpm,52
+7/13/2020,6:28 AM,Misc,Weight (Apple Health),lbs,164.355
+7/13/2020,6:28 AM,Misc,Body Fat (Apple Health),%,13.6857
+7/14/2020,5:29 AM,Misc,Heart Rate (Apple Health),bpm,57
+7/14/2020,7:24 AM,Misc,Weight (Apple Health),lbs,163.803
+7/14/2020,7:24 AM,Misc,Body Fat (Apple Health),%,13.6014
+7/15/2020,7:04 AM,Misc,Weight (Apple Health),lbs,164.355
+7/15/2020,7:04 AM,Misc,Body Fat (Apple Health),%,13.6857
+7/15/2020,11:48 PM,Misc,Heart Rate (Apple Health),bpm,70
+7/16/2020,5:33 AM,Misc,Heart Rate (Apple Health),bpm,55
+7/16/2020,7:19 AM,Misc,Body Fat (Apple Health),%,14.0993
+7/16/2020,7:19 AM,Misc,Weight (Apple Health),lbs,168.102
+7/16/2020,7:19 AM,Misc,Body Fat (Apple Health),%,13.6912
+7/16/2020,7:19 AM,Misc,Weight (Apple Health),lbs,164.465
+7/16/2020,7:20 AM,Misc,Body Fat (Apple Health),%,13.6912
+7/16/2020,7:20 AM,Misc,Weight (Apple Health),lbs,164.465
+7/16/2020,7:20 AM,Misc,Body Fat (Apple Health),%,13.6912
+7/16/2020,7:20 AM,Misc,Weight (Apple Health),lbs,164.465
+7/17/2020,7:40 AM,Misc,Body Fat (Apple Health),%,13.7864
+7/17/2020,7:40 AM,Misc,Weight (Apple Health),lbs,165.236
+7/17/2020,7:57 AM,Misc,Body Fat (Apple Health),%,13.7864
+7/17/2020,7:57 AM,Misc,Weight (Apple Health),lbs,165.236
+7/17/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,67
+7/18/2020,6:45 AM,Misc,Heart Rate (Apple Health),bpm,55
+7/19/2020,6:31 AM,Misc,Heart Rate (Apple Health),bpm,59
+7/19/2020,8:03 AM,Misc,Body Fat (Apple Health),%,13.7469
+7/19/2020,8:03 AM,Misc,Weight (Apple Health),lbs,165.016
+7/19/2020,8:49 AM,Misc,Weight (Apple Health),lbs,165
+7/20/2020,6:41 AM,Misc,Weight (Apple Health),lbs,165.126
+7/20/2020,6:41 AM,Misc,Body Fat (Apple Health),%,13.781
+7/20/2020,6:42 AM,Misc,Weight (Apple Health),lbs,165.126
+7/20/2020,6:42 AM,Misc,Body Fat (Apple Health),%,13.781
+7/20/2020,12:32 PM,Misc,Heart Rate (Apple Health),bpm,79
+7/21/2020,11:50 PM,Misc,Heart Rate (Apple Health),bpm,58
+7/22/2020,5:25 AM,Misc,Heart Rate (Apple Health),bpm,58
+7/22/2020,7:01 AM,Misc,Weight (Apple Health),lbs,165.236
+7/22/2020,7:01 AM,Misc,Body Fat (Apple Health),%,13.7864
+7/23/2020,5:10 AM,Misc,Heart Rate (Apple Health),bpm,57
+7/24/2020,3:04 PM,Misc,Heart Rate (Apple Health),bpm,69
+7/25/2020,5:22 AM,Misc,Heart Rate (Apple Health),bpm,52
+7/25/2020,8:33 AM,Misc,Body Fat (Apple Health),%,13.8422
+7/25/2020,8:33 AM,Misc,Weight (Apple Health),lbs,165.788
+7/26/2020,5:58 AM,Misc,Heart Rate (Apple Health),bpm,51
+7/27/2020,5:25 AM,Misc,Heart Rate (Apple Health),bpm,54
+7/27/2020,7:02 AM,Misc,Body Fat (Apple Health),%,13.7361
+7/27/2020,7:02 AM,Misc,Weight (Apple Health),lbs,164.796
+7/28/2020,5:31 AM,Misc,Heart Rate (Apple Health),bpm,55
+7/28/2020,6:44 AM,Misc,Weight (Apple Health),lbs,166.449
+7/28/2020,6:44 AM,Misc,Body Fat (Apple Health),%,13.9034
+7/28/2020,6:58 AM,Misc,Weight (Apple Health),lbs,166.118
+7/28/2020,6:58 AM,Misc,Body Fat (Apple Health),%,13.8871
+7/29/2020,5:14 AM,Misc,Heart Rate (Apple Health),bpm,51
+7/29/2020,6:57 AM,Misc,Weight (Apple Health),lbs,166.78
+7/29/2020,6:57 AM,Misc,Body Fat (Apple Health),%,13.9483
+7/30/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,60
+7/30/2020,7:22 AM,Misc,Body Fat (Apple Health),%,13.8422
+7/30/2020,7:22 AM,Misc,Weight (Apple Health),lbs,165.788
+7/31/2020,5:31 AM,Misc,Heart Rate (Apple Health),bpm,60
+7/31/2020,7:06 AM,Misc,Weight (Apple Health),lbs,163.693
+7/31/2020,7:06 AM,Misc,Body Fat (Apple Health),%,13.5959
+8/1/2020,5:42 AM,Misc,Heart Rate (Apple Health),bpm,59
+8/1/2020,9:08 AM,Misc,Body Fat (Apple Health),%,13.6912
+8/1/2020,9:08 AM,Misc,Weight (Apple Health),lbs,164.465
+8/2/2020,5:46 AM,Misc,Heart Rate (Apple Health),bpm,60
+8/3/2020,5:41 AM,Misc,Heart Rate (Apple Health),bpm,53
+8/3/2020,7:09 AM,Misc,Body Fat (Apple Health),%,13.7361
+8/3/2020,7:09 AM,Misc,Weight (Apple Health),lbs,164.796
+8/4/2020,5:38 AM,Misc,Body Fat (Apple Health),%,13.9878
+8/4/2020,5:38 AM,Misc,Weight (Apple Health),lbs,167
+8/4/2020,7:02 AM,Misc,Body Fat (Apple Health),%,13.7864
+8/4/2020,7:02 AM,Misc,Weight (Apple Health),lbs,165.236
+8/5/2020,5:43 AM,Misc,Heart Rate (Apple Health),bpm,53
+8/6/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,59
+8/7/2020,7:26 AM,Misc,Body Fat (Apple Health),%,13.898
+8/7/2020,7:26 AM,Misc,Weight (Apple Health),lbs,166.339
+8/7/2020,7:44 AM,Misc,Body Fat (Apple Health),%,13.8422
+8/7/2020,7:44 AM,Misc,Weight (Apple Health),lbs,165.788
+8/7/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,53
+8/8/2020,6:55 AM,Misc,Heart Rate (Apple Health),bpm,57
+8/8/2020,9:49 PM,Misc,Height (Apple Health),in,69
+8/8/2020,9:49 PM,Misc,Weight (Apple Health),lbs,165
+8/9/2020,7:06 AM,Misc,Heart Rate (Apple Health),bpm,56
+8/10/2020,5:28 AM,Misc,Heart Rate (Apple Health),bpm,57
+8/10/2020,7:25 AM,Misc,Weight (Apple Health),lbs,165.788
+8/10/2020,7:25 AM,Misc,Body Fat (Apple Health),%,13.8422
+8/11/2020,5:16 AM,Misc,Heart Rate (Apple Health),bpm,55
+8/11/2020,7:56 AM,Misc,Weight (Apple Health),lbs,166
+8/12/2020,5:06 AM,Misc,Heart Rate (Apple Health),bpm,54
+8/12/2020,6:52 AM,Misc,Body Fat (Apple Health),%,13.781
+8/12/2020,6:52 AM,Misc,Weight (Apple Health),lbs,165.126
+8/13/2020,6:05 AM,Misc,Heart Rate (Apple Health),bpm,53
+8/14/2020,6:01 AM,Misc,Heart Rate (Apple Health),bpm,59
+8/14/2020,7:15 AM,Misc,Body Fat (Apple Health),%,13.6803
+8/14/2020,7:15 AM,Misc,Weight (Apple Health),lbs,164.244
+8/15/2020,6:18 AM,Misc,Heart Rate (Apple Health),bpm,55
+8/16/2020,6:27 AM,Misc,Heart Rate (Apple Health),bpm,54
+8/17/2020,5:29 AM,Misc,Heart Rate (Apple Health),bpm,65
+8/18/2020,5:28 AM,Misc,Heart Rate (Apple Health),bpm,60
+8/18/2020,6:14 AM,Misc,Height (Apple Health),in,66
+8/18/2020,6:14 AM,Misc,Height (Apple Health),in,64
+8/18/2020,6:14 AM,Misc,Weight (Apple Health),lbs,167
+8/19/2020,5:22 AM,Misc,Heart Rate (Apple Health),bpm,50
+8/19/2020,7:34 AM,Misc,Weight (Apple Health),lbs,165.677
+8/19/2020,7:34 AM,Misc,Body Fat (Apple Health),%,13.8367
+8/20/2020,5:58 AM,Misc,Heart Rate (Apple Health),bpm,57
+8/21/2020,5:26 AM,Misc,Heart Rate (Apple Health),bpm,54
+8/21/2020,7:13 AM,Misc,Weight (Apple Health),lbs,166.78
+8/21/2020,7:13 AM,Misc,Body Fat (Apple Health),%,13.9483
+8/21/2020,7:19 AM,Misc,Weight (Apple Health),lbs,166.669
+8/21/2020,7:19 AM,Misc,Body Fat (Apple Health),%,13.9429
+8/22/2020,6:43 AM,Misc,Heart Rate (Apple Health),bpm,57
+8/22/2020,11:46 AM,Misc,Weight (Apple Health),lbs,164.355
+8/22/2020,11:46 AM,Misc,Body Fat (Apple Health),%,13.6857
+8/23/2020,6:40 AM,Misc,Heart Rate (Apple Health),bpm,56
+8/24/2020,5:34 AM,Misc,Heart Rate (Apple Health),bpm,60
+8/24/2020,7:15 AM,Misc,Body Fat (Apple Health),%,13.5959
+8/24/2020,7:15 AM,Misc,Weight (Apple Health),lbs,163.693
+8/24/2020,6:31 PM,Misc,Height (Apple Health),in,66
+8/24/2020,6:31 PM,Misc,Height (Apple Health),in,70
+8/24/2020,6:31 PM,Misc,Height (Apple Health),in,68
+8/24/2020,6:31 PM,Misc,Height (Apple Health),in,69
+8/25/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,56
+8/25/2020,7:47 AM,Misc,Body Fat (Apple Health),%,13.8816
+8/25/2020,7:47 AM,Misc,Weight (Apple Health),lbs,166.008
+8/26/2020,6:21 AM,Misc,Heart Rate (Apple Health),bpm,54
+8/27/2020,5:33 AM,Misc,Heart Rate (Apple Health),bpm,57
+8/28/2020,5:30 AM,Misc,Heart Rate (Apple Health),bpm,51
+8/28/2020,7:24 AM,Misc,Body Fat (Apple Health),%,13.898
+8/28/2020,7:24 AM,Misc,Weight (Apple Health),lbs,166.339
+8/29/2020,6:27 AM,Misc,Heart Rate (Apple Health),bpm,57
+8/29/2020,8:08 AM,Misc,Body Fat (Apple Health),%,13.702
+8/29/2020,8:08 AM,Misc,Weight (Apple Health),lbs,164.685
+8/30/2020,6:48 AM,Misc,Heart Rate (Apple Health),bpm,58
+8/31/2020,5:35 AM,Misc,Heart Rate (Apple Health),bpm,53
+9/1/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,56
+9/1/2020,7:14 AM,Misc,Weight (Apple Health),lbs,165.457
+9/1/2020,7:14 AM,Misc,Body Fat (Apple Health),%,13.7973
+9/2/2020,11:59 PM,Misc,Heart Rate (Apple Health),bpm,64
+9/3/2020,5:34 AM,Misc,Heart Rate (Apple Health),bpm,56
+9/4/2020,7:34 AM,Misc,Body Fat (Apple Health),%,13.898
+9/4/2020,7:34 AM,Misc,Weight (Apple Health),lbs,166.339
+9/4/2020,11:40 PM,Misc,Heart Rate (Apple Health),bpm,71
+9/5/2020,6:05 AM,Misc,Heart Rate (Apple Health),bpm,60
+9/6/2020,6:55 AM,Misc,Heart Rate (Apple Health),bpm,56
+9/7/2020,6:17 AM,Misc,Heart Rate (Apple Health),bpm,61
+9/8/2020,5:27 AM,Misc,Heart Rate (Apple Health),bpm,65
+9/8/2020,7:12 AM,Misc,Weight (Apple Health),lbs,164.685
+9/8/2020,7:12 AM,Misc,Body Fat (Apple Health),%,13.7306
+9/9/2020,5:26 AM,Misc,Heart Rate (Apple Health),bpm,54
+9/10/2020,10:16 PM,Misc,Heart Rate (Apple Health),bpm,78
+9/11/2020,5:23 AM,Misc,Heart Rate (Apple Health),bpm,56
+9/11/2020,7:17 AM,Misc,Weight (Apple Health),lbs,165.347
+9/11/2020,7:17 AM,Misc,Body Fat (Apple Health),%,13.7918
+9/12/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,56
+9/13/2020,6:11 AM,Misc,Heart Rate (Apple Health),bpm,66
+9/14/2020,5:42 AM,Misc,Heart Rate (Apple Health),bpm,55
+9/14/2020,7:16 AM,Misc,Body Fat (Apple Health),%,13.8313
+9/14/2020,7:16 AM,Misc,Weight (Apple Health),lbs,165.567
+9/14/2020,7:16 AM,Misc,Body Fat (Apple Health),%,13.8027
+9/14/2020,7:16 AM,Misc,Weight (Apple Health),lbs,165.567
+9/15/2020,11:59 PM,Misc,Heart Rate (Apple Health),bpm,58
+9/16/2020,5:59 AM,Misc,Heart Rate (Apple Health),bpm,57
+9/17/2020,7:31 AM,Misc,Heart Rate (Apple Health),bpm,68
+9/18/2020,5:23 AM,Misc,Heart Rate (Apple Health),bpm,56
+9/19/2020,6:50 AM,Misc,Heart Rate (Apple Health),bpm,61
+9/20/2020,6:09 AM,Misc,Heart Rate (Apple Health),bpm,58
+9/20/2020,7:41 AM,Misc,Weight (Apple Health),lbs,167.882
+9/20/2020,7:41 AM,Misc,Body Fat (Apple Health),%,14.0884
+9/20/2020,7:42 AM,Misc,Weight (Apple Health),lbs,164.465
+9/20/2020,7:42 AM,Misc,Body Fat (Apple Health),%,13.6912
+9/20/2020,7:43 AM,Misc,Weight (Apple Health),lbs,164.465
+9/20/2020,7:43 AM,Misc,Body Fat (Apple Health),%,13.6912
+9/20/2020,7:43 AM,Misc,Weight (Apple Health),lbs,164.465
+9/20/2020,7:43 AM,Misc,Body Fat (Apple Health),%,13.6912
+9/20/2020,7:44 AM,Misc,Weight (Apple Health),lbs,164.465
+9/20/2020,7:44 AM,Misc,Body Fat (Apple Health),%,13.6912
+9/21/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,68
+9/22/2020,6:20 AM,Misc,Heart Rate (Apple Health),bpm,54
+9/22/2020,7:15 AM,Misc,Weight (Apple Health),lbs,167.221
+9/22/2020,7:15 AM,Misc,Body Fat (Apple Health),%,13.9986
+9/22/2020,7:16 AM,Misc,Weight (Apple Health),lbs,167.221
+9/22/2020,7:16 AM,Misc,Body Fat (Apple Health),%,13.9986
+9/23/2020,5:22 AM,Misc,Heart Rate (Apple Health),bpm,63
+9/23/2020,7:01 AM,Misc,Weight (Apple Health),lbs,167.992
+9/23/2020,7:01 AM,Misc,Body Fat (Apple Health),%,14.0939
+9/24/2020,5:33 AM,Misc,Heart Rate (Apple Health),bpm,55
+9/25/2020,5:27 AM,Misc,Heart Rate (Apple Health),bpm,56
+9/26/2020,6:30 AM,Misc,Heart Rate (Apple Health),bpm,58
+9/27/2020,6:39 AM,Misc,Heart Rate (Apple Health),bpm,57
+9/28/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,62
+9/29/2020,5:40 AM,Misc,Heart Rate (Apple Health),bpm,57
+9/30/2020,10:54 AM,Misc,Heart Rate (Apple Health),bpm,113
+10/1/2020,5:41 AM,Misc,Heart Rate (Apple Health),bpm,63
+10/2/2020,11:59 PM,Misc,Heart Rate (Apple Health),bpm,70
+10/3/2020,6:29 AM,Misc,Heart Rate (Apple Health),bpm,60
+10/4/2020,6:30 AM,Misc,Heart Rate (Apple Health),bpm,56
+10/5/2020,5:44 AM,Misc,Heart Rate (Apple Health),bpm,53
+10/6/2020,4:59 AM,Misc,Heart Rate (Apple Health),bpm,56
+10/7/2020,5:38 AM,Misc,Heart Rate (Apple Health),bpm,52
+10/8/2020,11:59 PM,Misc,Heart Rate (Apple Health),bpm,63
+10/9/2020,7:35 AM,Misc,Weight (Apple Health),lbs,166.89
+10/9/2020,7:35 AM,Misc,Weight (Apple Health),lbs,166.89
+10/9/2020,7:35 AM,Misc,Body Fat (Apple Health),%,13.9823
+10/9/2020,7:35 AM,Misc,Body Fat (Apple Health),%,13.9823
+10/9/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,68
+10/10/2020,8:18 AM,Misc,Heart Rate (Apple Health),bpm,56
+10/11/2020,8:09 AM,Misc,Heart Rate (Apple Health),bpm,55
+10/12/2020,5:47 AM,Misc,Heart Rate (Apple Health),bpm,56
+10/13/2020,5:45 AM,Misc,Heart Rate (Apple Health),bpm,56
+10/14/2020,6:41 AM,Misc,Heart Rate (Apple Health),bpm,55
+10/15/2020,6:01 AM,Misc,Heart Rate (Apple Health),bpm,54
+10/15/2020,6:52 AM,Misc,Weight (Apple Health),lbs,169.756
+10/15/2020,6:52 AM,Misc,Body Fat (Apple Health),%,14.2952
+10/15/2020,7:07 AM,Misc,Weight (Apple Health),lbs,169.095
+10/15/2020,7:07 AM,Misc,Body Fat (Apple Health),%,14.234
+10/16/2020,5:38 AM,Misc,Heart Rate (Apple Health),bpm,59
+10/17/2020,7:18 AM,Misc,Heart Rate (Apple Health),bpm,54
+10/17/2020,8:34 AM,Misc,Weight (Apple Health),lbs,164.685
+10/17/2020,8:34 AM,Misc,Body Fat (Apple Health),%,13.7306
+10/18/2020,7:24 AM,Misc,Heart Rate (Apple Health),bpm,55
+10/18/2020,9:12 AM,Misc,Weight (Apple Health),lbs,165.898
+10/18/2020,9:12 AM,Misc,Body Fat (Apple Health),%,13.8476
+10/18/2020,9:30 AM,Misc,Weight (Apple Health),lbs,165.457
+10/18/2020,9:30 AM,Misc,Body Fat (Apple Health),%,13.7973
+10/19/2020,5:46 AM,Misc,Heart Rate (Apple Health),bpm,54
+10/19/2020,7:10 AM,Misc,Weight (Apple Health),lbs,165.788
+10/19/2020,7:10 AM,Misc,Body Fat (Apple Health),%,13.8422
+10/19/2020,7:15 AM,Misc,Diastolic Blood Pressure (Apple Health),mmHg,74
+10/19/2020,7:15 AM,Misc,Systolic Blood Pressure (Apple Health),mmHg,114
+10/20/2020,6:09 AM,Misc,Heart Rate (Apple Health),bpm,56
+10/20/2020,7:56 AM,Misc,Weight (Apple Health),lbs,165.6
+10/21/2020,5:38 AM,Misc,Heart Rate (Apple Health),bpm,53
+10/22/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,55
+10/22/2020,7:25 AM,Misc,Body Fat (Apple Health),%,14.083
+10/22/2020,7:25 AM,Misc,Weight (Apple Health),lbs,167.772
+10/22/2020,7:26 AM,Misc,Body Fat (Apple Health),%,14.083
+10/22/2020,7:26 AM,Misc,Weight (Apple Health),lbs,167.772
+10/23/2020,6:37 AM,Misc,Heart Rate (Apple Health),bpm,54
+10/24/2020,8:15 AM,Misc,Heart Rate (Apple Health),bpm,60
+10/25/2020,7:53 AM,Misc,Heart Rate (Apple Health),bpm,54
+10/26/2020,5:27 AM,Misc,Heart Rate (Apple Health),bpm,56
+10/27/2020,9:12 PM,Misc,Heart Rate (Apple Health),bpm,85
+10/28/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,63
+10/29/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,63
+10/30/2020,5:38 AM,Misc,Heart Rate (Apple Health),bpm,62
+10/31/2020,7:55 AM,Misc,Heart Rate (Apple Health),bpm,55
+11/1/2020,9:07 AM,Misc,Weight (Apple Health),lbs,167.441
+11/1/2020,9:07 AM,Misc,Body Fat (Apple Health),%,14.0381
+11/1/2020,9:07 AM,Misc,Heart Rate (Apple Health),bpm,72
+11/2/2020,6:04 AM,Misc,Heart Rate (Apple Health),bpm,52
+11/3/2020,5:43 AM,Misc,Heart Rate (Apple Health),bpm,74
+11/3/2020,7:11 AM,Misc,Weight (Apple Health),lbs,167.772
+11/3/2020,7:11 AM,Misc,Body Fat (Apple Health),%,14.083
+11/4/2020,11:35 PM,Misc,Heart Rate (Apple Health),bpm,60
+11/5/2020,5:40 AM,Misc,Heart Rate (Apple Health),bpm,55
+11/6/2020,7:13 AM,Misc,Heart Rate (Apple Health),bpm,50
+11/7/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,65
+11/8/2020,7:05 AM,Misc,Heart Rate (Apple Health),bpm,62
+11/9/2020,4:54 AM,Misc,Heart Rate (Apple Health),bpm,53
+11/10/2020,5:32 AM,Misc,Heart Rate (Apple Health),bpm,64
+11/11/2020,5:18 AM,Misc,Heart Rate (Apple Health),bpm,56
+11/12/2020,5:41 AM,Misc,Heart Rate (Apple Health),bpm,61
+11/13/2020,5:29 AM,Misc,Heart Rate (Apple Health),bpm,64
+11/14/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,67
+11/15/2020,6:21 AM,Misc,Heart Rate (Apple Health),bpm,65
+11/16/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,63
+11/17/2020,5:12 AM,Misc,Heart Rate (Apple Health),bpm,62
+11/18/2020,5:20 AM,Misc,Heart Rate (Apple Health),bpm,52
+11/18/2020,6:53 AM,Misc,Weight (Apple Health),lbs,169.866
+11/18/2020,6:53 AM,Misc,Body Fat (Apple Health),%,14.3007
+11/19/2020,5:47 AM,Misc,Heart Rate (Apple Health),bpm,56
+11/20/2020,6:58 AM,Misc,Heart Rate (Apple Health),bpm,65
+11/21/2020,10:05 AM,Misc,Heart Rate (Apple Health),bpm,66
+11/22/2020,6:40 AM,Misc,Heart Rate (Apple Health),bpm,59
+11/23/2020,7:06 PM,Misc,Heart Rate (Apple Health),bpm,70
+11/24/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,56
+11/25/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,68
+11/26/2020,11:55 PM,Misc,Heart Rate (Apple Health),bpm,52
+11/27/2020,6:55 AM,Misc,Heart Rate (Apple Health),bpm,55
+11/28/2020,3:45 PM,Misc,Heart Rate (Apple Health),bpm,75
+11/29/2020,8:37 AM,Misc,Heart Rate (Apple Health),bpm,65
+11/30/2020,6:54 AM,Misc,Body Fat (Apple Health),%,14.4014
+11/30/2020,6:54 AM,Misc,Weight (Apple Health),lbs,170.748
+11/30/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,68
+12/1/2020,6:35 AM,Misc,Weight (Apple Health),lbs,172.291
+12/1/2020,6:35 AM,Misc,Body Fat (Apple Health),%,14.5918
+12/1/2020,8:12 PM,Misc,Heart Rate (Apple Health),bpm,69
+12/2/2020,6:48 AM,Misc,Body Fat (Apple Health),%,14.3401
+12/2/2020,6:48 AM,Misc,Weight (Apple Health),lbs,170.087
+12/2/2020,8:16 PM,Misc,Heart Rate (Apple Health),bpm,69
+12/3/2020,7:10 AM,Misc,Body Fat (Apple Health),%,14.2898
+12/3/2020,7:10 AM,Misc,Weight (Apple Health),lbs,169.646
+12/3/2020,8:10 AM,Misc,Heart Rate (Apple Health),bpm,66
+12/4/2020,6:47 AM,Misc,Body Fat (Apple Health),%,14.2449
+12/4/2020,6:47 AM,Misc,Weight (Apple Health),lbs,169.315
+12/4/2020,7:09 AM,Misc,Body Fat (Apple Health),%,14.2
+12/4/2020,7:09 AM,Misc,Weight (Apple Health),lbs,168.984
+12/4/2020,7:09 AM,Misc,Weight (Apple Health),lbs,168.984
+12/4/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,64
+12/5/2020,8:44 AM,Misc,Heart Rate (Apple Health),bpm,70
+12/6/2020,10:37 AM,Misc,Body Fat (Apple Health),%,14.1946
+12/6/2020,10:37 AM,Misc,Weight (Apple Health),lbs,168.874
+12/6/2020,6:15 PM,Misc,Heart Rate (Apple Health),bpm,64
+12/7/2020,7:14 PM,Misc,Heart Rate (Apple Health),bpm,68
+12/8/2020,12:37 PM,Misc,Heart Rate (Apple Health),bpm,72
+12/9/2020,7:12 AM,Misc,Body Fat (Apple Health),%,14.3456
+12/9/2020,7:12 AM,Misc,Weight (Apple Health),lbs,170.197
+12/9/2020,10:07 AM,Misc,Heart Rate (Apple Health),bpm,113
+12/10/2020,7:18 AM,Misc,Weight (Apple Health),lbs,171.299
+12/10/2020,7:18 AM,Misc,Body Fat (Apple Health),%,14.4571
+12/11/2020,7:12 AM,Misc,Weight (Apple Health),lbs,170.087
+12/11/2020,7:12 AM,Misc,Body Fat (Apple Health),%,14.3401
+12/11/2020,7:16 AM,Misc,Weight (Apple Health),lbs,170.087
+12/11/2020,7:16 AM,Misc,Body Fat (Apple Health),%,14.3401
+12/11/2020,11:57 PM,Misc,Heart Rate (Apple Health),bpm,67
+12/12/2020,1:21 AM,Misc,Heart Rate (Apple Health),bpm,71
+12/13/2020,6:17 PM,Misc,Heart Rate (Apple Health),bpm,75
+12/14/2020,6:02 PM,Misc,Heart Rate (Apple Health),bpm,77
+12/15/2020,6:53 AM,Misc,Heart Rate (Apple Health),bpm,58
+12/16/2020,7:26 AM,Misc,Body Fat (Apple Health),%,14.3007
+12/16/2020,7:26 AM,Misc,Weight (Apple Health),lbs,169.866
+12/16/2020,7:27 AM,Misc,Body Fat (Apple Health),%,14.3007
+12/16/2020,7:27 AM,Misc,Weight (Apple Health),lbs,169.866
+12/16/2020,5:44 PM,Misc,Heart Rate (Apple Health),bpm,70
+12/17/2020,7:24 AM,Misc,Body Fat (Apple Health),%,14.1388
+12/17/2020,7:24 AM,Misc,Weight (Apple Health),lbs,168.323
+12/17/2020,11:41 AM,Misc,Heart Rate (Apple Health),bpm,91
+12/18/2020,7:21 AM,Misc,Weight (Apple Health),lbs,167.221
+12/18/2020,7:21 AM,Misc,Body Fat (Apple Health),%,13.9986
+12/18/2020,8:01 AM,Misc,Heart Rate (Apple Health),bpm,73
+12/19/2020,8:00 PM,Misc,Heart Rate (Apple Health),bpm,76
+12/20/2020,8:39 AM,Misc,Body Fat (Apple Health),%,14.0327
+12/20/2020,8:39 AM,Misc,Weight (Apple Health),lbs,167.331
+12/20/2020,10:12 PM,Misc,Heart Rate (Apple Health),bpm,121
+12/21/2020,12:06 PM,Misc,Heart Rate (Apple Health),bpm,96
+12/22/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,58
+12/23/2020,11:59 PM,Misc,Heart Rate (Apple Health),bpm,75
+12/24/2020,11:58 PM,Misc,Heart Rate (Apple Health),bpm,54
+12/25/2020,11:59 PM,Misc,Heart Rate (Apple Health),bpm,67
+12/26/2020,8:32 PM,Misc,Heart Rate (Apple Health),bpm,68
+12/27/2020,9:49 AM,Misc,Heart Rate (Apple Health),bpm,115
+12/28/2020,12:01 AM,Misc,Heart Rate (Apple Health),bpm,79
+12/29/2020,11:56 PM,Misc,Heart Rate (Apple Health),bpm,76
+12/30/2020,6:56 AM,Misc,Heart Rate (Apple Health),bpm,62
+12/31/2020,11:51 PM,Misc,Heart Rate (Apple Health),bpm,94
+1/1/2021,12:45 AM,Misc,Heart Rate (Apple Health),bpm,81.486
+1/2/2021,10:12 PM,Misc,Heart Rate (Apple Health),bpm,59
+1/3/2021,4:33 PM,Misc,Heart Rate (Apple Health),bpm,63
+1/4/2021,7:05 AM,Misc,Weight (Apple Health),lbs,166.8
+1/4/2021,7:05 AM,Misc,Body Fat (Apple Health),%,13.9483
+1/4/2021,8:25 PM,Misc,Heart Rate (Apple Health),bpm,69
+1/5/2021,9:15 PM,Misc,Heart Rate (Apple Health),bpm,71
+1/6/2021,7:11 AM,Misc,Weight (Apple Health),lbs,166.2
+1/6/2021,7:11 AM,Misc,Body Fat (Apple Health),%,13.8871
+1/6/2021,6:16 PM,Misc,Heart Rate (Apple Health),bpm,72
+1/7/2021,11:18 PM,Misc,Heart Rate (Apple Health),bpm,70
+1/8/2021,11:24 AM,Misc,Heart Rate (Apple Health),bpm,75
+1/9/2021,8:54 PM,Misc,Heart Rate (Apple Health),bpm,75
+1/10/2021,7:45 AM,Misc,Body Fat (Apple Health),%,13.9374
+1/10/2021,7:45 AM,Misc,Weight (Apple Health),lbs,166.6
+1/10/2021,4:56 PM,Misc,Heart Rate (Apple Health),bpm,71
+1/11/2021,7:37 AM,Misc,Body Fat (Apple Health),%,13.8816
+1/11/2021,7:37 AM,Misc,Weight (Apple Health),lbs,166
+1/11/2021,7:52 AM,Misc,Heart Rate (Apple Health),bpm,68
+1/12/2021,4:25 PM,Misc,Heart Rate (Apple Health),bpm,84
+1/13/2021,10:10 PM,Misc,Heart Rate (Apple Health),bpm,61
+1/14/2021,6:11 PM,Misc,Heart Rate (Apple Health),bpm,69
+1/15/2021,3:43 PM,Misc,Heart Rate (Apple Health),bpm,76
+1/16/2021,11:58 PM,Misc,Heart Rate (Apple Health),bpm,68
+1/17/2021,11:57 PM,Misc,Heart Rate (Apple Health),bpm,57
+1/18/2021,10:43 PM,Misc,Heart Rate (Apple Health),bpm,75
+1/19/2021,7:15 AM,Misc,Body Fat (Apple Health),%,14.049
+1/19/2021,7:15 AM,Misc,Weight (Apple Health),lbs,167.6
+1/19/2021,8:13 AM,Misc,Heart Rate (Apple Health),bpm,95
+1/20/2021,11:54 PM,Misc,Heart Rate (Apple Health),bpm,55
+1/21/2021,6:29 AM,Misc,Heart Rate (Apple Health),bpm,60
+1/22/2021,11:56 PM,Misc,Heart Rate (Apple Health),bpm,59
+1/23/2021,11:57 PM,Misc,Heart Rate (Apple Health),bpm,61
+1/24/2021,8:52 PM,Misc,Heart Rate (Apple Health),bpm,67
+1/25/2021,11:29 AM,Misc,Heart Rate (Apple Health),bpm,66
+1/26/2021,7:21 AM,Misc,Body Fat (Apple Health),%,14.1497
+1/26/2021,7:21 AM,Misc,Weight (Apple Health),lbs,168.6
+1/26/2021,8:49 PM,Misc,Heart Rate (Apple Health),bpm,81
+1/28/2021,,Misc,Sleep (Oura),hours,8
+1/28/2021,,Misc,Heart Rate (Oura),bpm,61
+1/29/2021,,Misc,Sleep (Oura),hours,7.65833
+1/29/2021,,Misc,Heart Rate (Oura),bpm,61
+1/31/2021,,Misc,Sleep (Oura),hours,7.50833
+1/31/2021,,Misc,Heart Rate (Oura),bpm,58
+2/1/2021,,Misc,Sleep (Oura),hours,7.16667
+2/1/2021,,Misc,Heart Rate (Oura),bpm,58
+2/2/2021,,Misc,Sleep (Oura),hours,7.80833
+2/2/2021,,Misc,Heart Rate (Oura),bpm,56
+2/4/2021,,Misc,Sleep (Oura),hours,6.8
+2/4/2021,,Misc,Heart Rate (Oura),bpm,56
+2/10/2021,,Misc,Sleep (Oura),hours,6.84167
+2/10/2021,,Misc,Heart Rate (Oura),bpm,53
+2/11/2021,,Misc,Sleep (Oura),hours,5.24167
+2/11/2021,,Misc,Heart Rate (Oura),bpm,56
+2/16/2021,,Misc,Sleep (Oura),hours,7.15833
+2/16/2021,,Misc,Heart Rate (Oura),bpm,58
+2/17/2021,,Misc,Sleep (Oura),hours,6.46667
+2/17/2021,,Misc,Heart Rate (Oura),bpm,57
+2/18/2021,,Misc,Sleep (Oura),hours,6.3
+2/18/2021,,Misc,Heart Rate (Oura),bpm,55
+2/19/2021,,Misc,Sleep (Oura),hours,7.34167
+2/19/2021,,Misc,Heart Rate (Oura),bpm,62
+2/20/2021,,Misc,Sleep (Oura),hours,6.65833
+2/20/2021,,Misc,Heart Rate (Oura),bpm,58
+2/22/2021,,Misc,Sleep (Oura),hours,7.19167
+2/22/2021,,Misc,Heart Rate (Oura),bpm,62
+2/23/2021,,Misc,Sleep (Oura),hours,7.09167
+2/23/2021,,Misc,Heart Rate (Oura),bpm,56
+2/24/2021,,Misc,Sleep (Oura),hours,7.28333
+2/24/2021,,Misc,Heart Rate (Oura),bpm,57
+2/25/2021,,Misc,Sleep (Oura),hours,7.5
+2/25/2021,,Misc,Heart Rate (Oura),bpm,56
+2/26/2021,,Misc,Sleep (Oura),hours,6.54167
+2/26/2021,,Misc,Heart Rate (Oura),bpm,59
+2/27/2021,,Misc,Systolic Blood Pressure,mmHg,124
+2/27/2021,,Misc,Diastolic Blood Pressure,mmHg,85
+2/27/2021,,Misc,Sleep (Oura),hours,7.55
+2/27/2021,,Misc,Heart Rate (Oura),bpm,55
+2/28/2021,,Misc,Sleep (Oura),hours,7.68333
+2/28/2021,,Misc,Heart Rate (Oura),bpm,64
+2/28/2021,,Misc,Systolic Blood Pressure,mmHg,122
+2/28/2021,,Misc,Diastolic Blood Pressure,mmHg,80
+3/1/2021,,Misc,Sleep (Oura),hours,7.65
+3/1/2021,,Misc,Heart Rate (Oura),bpm,57
+3/1/2021,,Misc,Systolic Blood Pressure,mmHg,119
+3/1/2021,,Misc,Diastolic Blood Pressure,mmHg,79
+3/2/2021,,Misc,Sleep (Oura),hours,6.75833
+3/2/2021,,Misc,Heart Rate (Oura),bpm,54
+3/3/2021,,Misc,Sleep (Oura),hours,6.63333
+3/3/2021,,Misc,Heart Rate (Oura),bpm,59
+3/4/2021,,Misc,Sleep (Oura),hours,7.03333
+3/4/2021,,Misc,Heart Rate (Oura),bpm,59
+3/4/2021,,Misc,Systolic Blood Pressure,mmHg,122
+3/4/2021,,Misc,Diastolic Blood Pressure,mmHg,81
+3/5/2021,,Misc,Sleep (Oura),hours,7.275
+3/5/2021,,Misc,Heart Rate (Oura),bpm,57
+3/6/2021,,Misc,Sleep (Oura),hours,7.45
+3/6/2021,,Misc,Heart Rate (Oura),bpm,56
+3/7/2021,,Misc,Sleep (Oura),hours,6.925
+3/7/2021,,Misc,Heart Rate (Oura),bpm,56
+3/8/2021,,Misc,Sleep (Oura),hours,7.05833
+3/8/2021,,Misc,Heart Rate (Oura),bpm,56
+3/9/2021,,Misc,Sleep (Oura),hours,7
+3/9/2021,,Misc,Heart Rate (Oura),bpm,59
+3/10/2021,,Misc,Sleep (Oura),hours,7.28333
+3/10/2021,,Misc,Heart Rate (Oura),bpm,57
+3/11/2021,,Misc,Sleep (Oura),hours,6.31667
+3/11/2021,,Misc,Heart Rate (Oura),bpm,55
+3/12/2021,,Misc,Sleep (Oura),hours,6.56667
+3/12/2021,,Misc,Heart Rate (Oura),bpm,59
+3/13/2021,,Misc,Sleep (Oura),hours,6.625
+3/13/2021,,Misc,Heart Rate (Oura),bpm,58
+3/14/2021,,Misc,Sleep (Oura),hours,6.78333
+3/14/2021,,Misc,Heart Rate (Oura),bpm,58
+3/15/2021,,Misc,Sleep (Oura),hours,7.16667
+3/15/2021,,Misc,Heart Rate (Oura),bpm,59
+3/16/2021,,Misc,Sleep (Oura),hours,6.50833
+3/16/2021,,Misc,Heart Rate (Oura),bpm,60
+3/17/2021,,Misc,Sleep (Oura),hours,6.88333
+3/17/2021,,Misc,Heart Rate (Oura),bpm,59
+3/18/2021,,Misc,Sleep (Oura),hours,7.275
+3/18/2021,,Misc,Heart Rate (Oura),bpm,58
+3/19/2021,,Misc,Sleep (Oura),hours,5.81667
+3/19/2021,,Misc,Heart Rate (Oura),bpm,61
+3/20/2021,,Misc,Sleep (Oura),hours,8.025
+3/20/2021,,Misc,Heart Rate (Oura),bpm,59
+3/21/2021,,Misc,Sleep (Oura),hours,6.45
+3/21/2021,,Misc,Heart Rate (Oura),bpm,60
+3/22/2021,,Misc,Sleep (Oura),hours,6.70833
+3/22/2021,,Misc,Heart Rate (Oura),bpm,58
+3/23/2021,,Misc,Sleep (Oura),hours,7.08333
+3/23/2021,,Misc,Heart Rate (Oura),bpm,54
+3/24/2021,,Misc,Sleep (Oura),hours,7.30833
+3/24/2021,,Misc,Heart Rate (Oura),bpm,56
+3/25/2021,,Misc,Sleep (Oura),hours,5.50833
+3/25/2021,,Misc,Heart Rate (Oura),bpm,57
+3/26/2021,,Misc,Sleep (Oura),hours,6.10833
+3/26/2021,,Misc,Heart Rate (Oura),bpm,59
+3/27/2021,,Misc,Sleep (Oura),hours,7.55833
+3/27/2021,,Misc,Heart Rate (Oura),bpm,56
+3/28/2021,,Misc,Sleep (Oura),hours,8.06667
+3/28/2021,,Misc,Heart Rate (Oura),bpm,57
+3/29/2021,,Misc,Sleep (Oura),hours,7.175
+3/29/2021,,Misc,Heart Rate (Oura),bpm,58
+3/30/2021,,Misc,Sleep (Oura),hours,6.825
+3/30/2021,,Misc,Heart Rate (Oura),bpm,58
+3/31/2021,,Misc,Sleep (Oura),hours,7.18333
+3/31/2021,,Misc,Heart Rate (Oura),bpm,61
+4/1/2021,,Misc,Sleep (Oura),hours,6.65
+4/1/2021,,Misc,Heart Rate (Oura),bpm,60
+4/2/2021,,Misc,Sleep (Oura),hours,6.98333
+4/2/2021,,Misc,Heart Rate (Oura),bpm,55
+4/3/2021,,Misc,Sleep (Oura),hours,6.45
+4/3/2021,,Misc,Heart Rate (Oura),bpm,57
+4/4/2021,,Misc,Sleep (Oura),hours,7.25833
+4/4/2021,,Misc,Heart Rate (Oura),bpm,58
+4/5/2021,,Misc,Sleep (Oura),hours,5.94167
+4/5/2021,,Misc,Heart Rate (Oura),bpm,58
+4/6/2021,,Misc,Sleep (Oura),hours,7.8
+4/6/2021,,Misc,Heart Rate (Oura),bpm,58
+4/7/2021,,Misc,Sleep (Oura),hours,6.03333
+4/7/2021,,Misc,Heart Rate (Oura),bpm,59
+4/8/2021,,Misc,Sleep (Oura),hours,6.99167
+4/8/2021,,Misc,Heart Rate (Oura),bpm,57
+4/9/2021,,Misc,Sleep (Oura),hours,7.45833
+4/9/2021,,Misc,Heart Rate (Oura),bpm,58
+4/10/2021,,Misc,Sleep (Oura),hours,8.49167
+4/10/2021,,Misc,Heart Rate (Oura),bpm,70
+4/11/2021,,Misc,Sleep (Oura),hours,7.96667
+4/11/2021,,Misc,Heart Rate (Oura),bpm,58
+4/12/2021,,Misc,Sleep (Oura),hours,7.83333
+4/12/2021,,Misc,Heart Rate (Oura),bpm,57
+4/13/2021,,Misc,Sleep (Oura),hours,6.83333
+4/13/2021,,Misc,Heart Rate (Oura),bpm,58
+4/14/2021,,Misc,Sleep (Oura),hours,6.69167
+4/14/2021,,Misc,Heart Rate (Oura),bpm,57
+4/15/2021,,Misc,Sleep (Oura),hours,6.95833
+4/15/2021,,Misc,Heart Rate (Oura),bpm,59
+4/16/2021,,Misc,Sleep (Oura),hours,7.16667
+4/16/2021,,Misc,Heart Rate (Oura),bpm,56
+4/17/2021,,Misc,Sleep (Oura),hours,7.58333
+4/17/2021,,Misc,Heart Rate (Oura),bpm,57
+4/18/2021,,Misc,Sleep (Oura),hours,7.80833
+4/18/2021,,Misc,Heart Rate (Oura),bpm,57
+4/19/2021,,Misc,Sleep (Oura),hours,6.875
+4/19/2021,,Misc,Heart Rate (Oura),bpm,61
+4/20/2021,,Misc,Sleep (Oura),hours,6.825
+4/20/2021,,Misc,Heart Rate (Oura),bpm,60
+4/21/2021,,Misc,Sleep (Oura),hours,7.08333
+4/21/2021,,Misc,Heart Rate (Oura),bpm,60
+4/22/2021,,Misc,Sleep (Oura),hours,7.625
+4/22/2021,,Misc,Heart Rate (Oura),bpm,54
+4/23/2021,,Misc,Sleep (Oura),hours,6.4
+4/23/2021,,Misc,Heart Rate (Oura),bpm,60
+4/24/2021,,Misc,Sleep (Oura),hours,8.24167
+4/24/2021,,Misc,Heart Rate (Oura),bpm,54
+4/25/2021,,Misc,Sleep (Oura),hours,8.575
+4/25/2021,,Misc,Heart Rate (Oura),bpm,56
+4/26/2021,,Misc,Sleep (Oura),hours,7.61667
+4/26/2021,,Misc,Heart Rate (Oura),bpm,59
+4/27/2021,,Misc,Sleep (Oura),hours,6.85833
+4/27/2021,,Misc,Heart Rate (Oura),bpm,57
+4/28/2021,,Misc,Sleep (Oura),hours,6.45833
+4/28/2021,,Misc,Heart Rate (Oura),bpm,56
+4/29/2021,,Misc,Sleep (Oura),hours,7.75
+4/29/2021,,Misc,Heart Rate (Oura),bpm,59
+4/30/2021,,Misc,Sleep (Oura),hours,6.5
+4/30/2021,,Misc,Heart Rate (Oura),bpm,58
+5/1/2021,,Misc,Sleep (Oura),hours,6.9
+5/1/2021,,Misc,Heart Rate (Oura),bpm,57
+5/2/2021,,Misc,Sleep (Oura),hours,6.25
+5/2/2021,,Misc,Heart Rate (Oura),bpm,59
+5/3/2021,,Misc,Sleep (Oura),hours,6.8
+5/3/2021,,Misc,Heart Rate (Oura),bpm,59
+5/3/2021,,Misc,Weight,lbs,173
+5/4/2021,,Misc,Sleep (Oura),hours,7.19167
+5/4/2021,,Misc,Heart Rate (Oura),bpm,57
+5/5/2021,,Misc,Sleep (Oura),hours,7.125
+5/5/2021,,Misc,Heart Rate (Oura),bpm,56
+5/6/2021,,Misc,Sleep (Oura),hours,5.63333
+5/6/2021,,Misc,Heart Rate (Oura),bpm,57
+5/7/2021,,Misc,Sleep (Oura),hours,6.91667
+5/7/2021,,Misc,Heart Rate (Oura),bpm,55
+5/8/2021,,Misc,Sleep (Oura),hours,5.225
+5/8/2021,,Misc,Heart Rate (Oura),bpm,56
+5/9/2021,,Misc,Sleep (Oura),hours,5.825
+5/9/2021,,Misc,Heart Rate (Oura),bpm,56
+5/10/2021,,Misc,Sleep (Oura),hours,6.85833
+5/10/2021,,Misc,Heart Rate (Oura),bpm,55
+5/11/2021,,Misc,Sleep (Oura),hours,7.01667
+5/11/2021,,Misc,Heart Rate (Oura),bpm,53
+5/12/2021,,Misc,Sleep (Oura),hours,7.08333
+5/12/2021,,Misc,Heart Rate (Oura),bpm,54
+5/13/2021,,Misc,Sleep (Oura),hours,5.70833
+5/13/2021,,Misc,Heart Rate (Oura),bpm,56
+5/14/2021,,Misc,Sleep (Oura),hours,5.775
+5/14/2021,,Misc,Heart Rate (Oura),bpm,53
+5/15/2021,,Misc,Sleep (Oura),hours,5.61667
+5/15/2021,,Misc,Heart Rate (Oura),bpm,59
+5/16/2021,,Misc,Sleep (Oura),hours,8.8
+5/16/2021,,Misc,Heart Rate (Oura),bpm,54
+5/17/2021,,Misc,Sleep (Oura),hours,6.53333
+5/17/2021,,Misc,Heart Rate (Oura),bpm,56
+5/18/2021,,Misc,Sleep (Oura),hours,5.75833
+5/18/2021,,Misc,Heart Rate (Oura),bpm,55
+5/19/2021,,Misc,Sleep (Oura),hours,7.11667
+5/19/2021,,Misc,Heart Rate (Oura),bpm,56
+5/19/2021,,Misc,Weight,lbs,170
+5/20/2021,,Misc,Sleep (Oura),hours,6.79167
+5/20/2021,,Misc,Heart Rate (Oura),bpm,56
+5/21/2021,,Misc,Sleep (Oura),hours,6.05833
+5/21/2021,,Misc,Heart Rate (Oura),bpm,59
+5/22/2021,,Misc,Sleep (Oura),hours,7.68333
+5/22/2021,,Misc,Heart Rate (Oura),bpm,55
+5/23/2021,,Misc,Sleep (Oura),hours,7.55
+5/23/2021,,Misc,Heart Rate (Oura),bpm,57
+5/24/2021,,Misc,Sleep (Oura),hours,7.2
+5/24/2021,,Misc,Heart Rate (Oura),bpm,56
+5/25/2021,,Misc,Sleep (Oura),hours,7.01667
+5/25/2021,,Misc,Heart Rate (Oura),bpm,52
+5/26/2021,,Misc,Sleep (Oura),hours,6.39167
+5/26/2021,,Misc,Heart Rate (Oura),bpm,59
+5/27/2021,,Misc,Sleep (Oura),hours,7.03333
+5/27/2021,,Misc,Heart Rate (Oura),bpm,54
+5/28/2021,,Misc,Sleep (Oura),hours,7.63333
+5/28/2021,,Misc,Heart Rate (Oura),bpm,52
+5/29/2021,,Misc,Sleep (Oura),hours,6.73333
+5/29/2021,,Misc,Heart Rate (Oura),bpm,55
+5/30/2021,,Misc,Sleep (Oura),hours,7.10833
+5/30/2021,,Misc,Heart Rate (Oura),bpm,52
+5/31/2021,,Misc,Weight,lbs,170
+5/31/2021,,Misc,Sleep (Oura),hours,6.35
+5/31/2021,,Misc,Heart Rate (Oura),bpm,58
+6/1/2021,,Misc,Sleep (Oura),hours,7.75833
+6/1/2021,,Misc,Heart Rate (Oura),bpm,57
+6/2/2021,,Misc,Sleep (Oura),hours,7.2
+6/2/2021,,Misc,Heart Rate (Oura),bpm,59
+6/2/2021,,Misc,Weight,lbs,170
+6/3/2021,,Misc,Sleep (Oura),hours,6.325
+6/3/2021,,Misc,Heart Rate (Oura),bpm,57
+6/4/2021,,Misc,Sleep (Oura),hours,6.975
+6/4/2021,,Misc,Heart Rate (Oura),bpm,55
+6/6/2021,,Misc,Sleep (Oura),hours,8.16667
+6/6/2021,,Misc,Heart Rate (Oura),bpm,62
+6/7/2021,,Misc,Sleep (Oura),hours,6.9
+6/7/2021,,Misc,Heart Rate (Oura),bpm,53
+6/8/2021,,Misc,Sleep (Oura),hours,6.90833
+6/8/2021,,Misc,Heart Rate (Oura),bpm,55
+6/9/2021,,Misc,Sleep (Oura),hours,7.05833
+6/9/2021,,Misc,Heart Rate (Oura),bpm,55
+6/10/2021,,Misc,Sleep (Oura),hours,6.95833
+6/10/2021,,Misc,Heart Rate (Oura),bpm,56
+6/11/2021,,Misc,Sleep (Oura),hours,6.71667
+6/11/2021,,Misc,Heart Rate (Oura),bpm,56
+6/12/2021,,Misc,Sleep (Oura),hours,5.63333
+6/12/2021,,Misc,Heart Rate (Oura),bpm,54
+6/13/2021,,Misc,Sleep (Oura),hours,7.81667
+6/13/2021,,Misc,Heart Rate (Oura),bpm,57
+6/14/2021,,Misc,Sleep (Oura),hours,5.76667
+6/14/2021,,Misc,Heart Rate (Oura),bpm,56
+6/15/2021,,Misc,Sleep (Oura),hours,6.65
+6/15/2021,,Misc,Heart Rate (Oura),bpm,53
+6/15/2021,,Misc,Weight,lbs,167
+6/16/2021,,Misc,Sleep (Oura),hours,6.8
+6/16/2021,,Misc,Heart Rate (Oura),bpm,53
+6/17/2021,,Misc,Sleep (Oura),hours,7.04167
+6/17/2021,,Misc,Heart Rate (Oura),bpm,52
+6/17/2021,,Misc,Weight,lbs,167
+6/18/2021,,Misc,Sleep (Oura),hours,7.70833
+6/18/2021,,Misc,Heart Rate (Oura),bpm,50
+6/19/2021,,Misc,Sleep (Oura),hours,6.18333
+6/19/2021,,Misc,Heart Rate (Oura),bpm,51
+6/20/2021,,Misc,Sleep (Oura),hours,7.4
+6/20/2021,,Misc,Heart Rate (Oura),bpm,51
+6/21/2021,,Misc,Sleep (Oura),hours,6.675
+6/21/2021,,Misc,Heart Rate (Oura),bpm,54
+6/22/2021,,Misc,Sleep (Oura),hours,7.18333
+6/22/2021,,Misc,Heart Rate (Oura),bpm,54
+6/22/2021,,Misc,Systolic Blood Pressure,mmHg,118
+6/22/2021,,Misc,Diastolic Blood Pressure,mmHg,82
+6/23/2021,,Misc,Sleep (Oura),hours,7.125
+6/23/2021,,Misc,Heart Rate (Oura),bpm,55
+6/24/2021,,Misc,Sleep (Oura),hours,7.28333
+6/24/2021,,Misc,Heart Rate (Oura),bpm,54
+6/25/2021,,Misc,Sleep (Oura),hours,6.61667
+6/25/2021,,Misc,Heart Rate (Oura),bpm,52
+6/26/2021,,Misc,Sleep (Oura),hours,6.84167
+6/26/2021,,Misc,Heart Rate (Oura),bpm,55
+6/27/2021,,Misc,Sleep (Oura),hours,7.05
+6/27/2021,,Misc,Heart Rate (Oura),bpm,55
+6/28/2021,,Misc,Sleep (Oura),hours,8.05
+6/28/2021,,Misc,Heart Rate (Oura),bpm,53
+6/29/2021,,Misc,Sleep (Oura),hours,5.95
+6/29/2021,,Misc,Heart Rate (Oura),bpm,58
+6/30/2021,,Misc,Systolic Blood Pressure,mmHg,118
+6/30/2021,,Misc,Sleep (Oura),hours,7.13333
+6/30/2021,,Misc,Heart Rate (Oura),bpm,58
+6/30/2021,,Misc,Diastolic Blood Pressure,mmHg,82
+7/1/2021,,Misc,Sleep (Oura),hours,6.70833
+7/1/2021,,Misc,Heart Rate (Oura),bpm,59
+7/2/2021,,Misc,Sleep (Oura),hours,6.93333
+7/2/2021,,Misc,Heart Rate (Oura),bpm,62
+7/3/2021,,Misc,Sleep (Oura),hours,6.68333
+7/3/2021,,Misc,Heart Rate (Oura),bpm,55
+7/6/2021,,Misc,Sleep (Oura),hours,6.725
+7/6/2021,,Misc,Heart Rate (Oura),bpm,57
+7/7/2021,,Misc,Sleep (Oura),hours,5.98333
+7/7/2021,,Misc,Heart Rate (Oura),bpm,58
+7/8/2021,,Misc,Sleep (Oura),hours,6.94167
+7/8/2021,,Misc,Heart Rate (Oura),bpm,56
+7/9/2021,,Misc,Sleep (Oura),hours,7.14167
+7/9/2021,,Misc,Heart Rate (Oura),bpm,56
+7/10/2021,,Misc,Sleep (Oura),hours,6.81667
+7/10/2021,,Misc,Heart Rate (Oura),bpm,55
+7/11/2021,,Misc,Sleep (Oura),hours,7.20833
+7/11/2021,,Misc,Heart Rate (Oura),bpm,52
+7/12/2021,,Misc,Weight,lbs,166.6
+7/13/2021,,Misc,Sleep (Oura),hours,6.05833
+7/13/2021,,Misc,Heart Rate (Oura),bpm,60
+7/14/2021,,Misc,Sleep (Oura),hours,6.05833
+7/14/2021,,Misc,Heart Rate (Oura),bpm,54
+7/16/2021,,Misc,Sleep (Oura),hours,7.08333
+7/16/2021,,Misc,Heart Rate (Oura),bpm,54
+7/17/2021,,Misc,Sleep (Oura),hours,7.66667
+7/17/2021,,Misc,Heart Rate (Oura),bpm,57
+7/18/2021,,Misc,Sleep (Oura),hours,6.45833
+7/18/2021,,Misc,Heart Rate (Oura),bpm,55
+7/19/2021,,Dinner,Systolic Blood Pressure,mmHg,120
+7/19/2021,,Dinner,Diastolic Blood Pressure,mmHg,84
+7/19/2021,,Misc,Sleep (Oura),hours,6.54167
+7/19/2021,,Misc,Heart Rate (Oura),bpm,55
+7/20/2021,,Misc,Sleep (Oura),hours,5.84167
+7/20/2021,,Misc,Heart Rate (Oura),bpm,54
+7/21/2021,,Misc,Sleep (Oura),hours,6.625
+7/21/2021,,Misc,Heart Rate (Oura),bpm,56
+7/22/2021,,Misc,Systolic Blood Pressure,mmHg,127
+7/22/2021,,Misc,Sleep (Oura),hours,5.925
+7/22/2021,,Misc,Heart Rate (Oura),bpm,55
+7/22/2021,,Misc,Weight,lbs,167
+7/22/2021,,Misc,Diastolic Blood Pressure,mmHg,91
+7/24/2021,,Misc,Sleep (Oura),hours,6.65833
+7/24/2021,,Misc,Heart Rate (Oura),bpm,58
+7/25/2021,,Misc,Sleep (Oura),hours,7.38333
+7/25/2021,,Misc,Heart Rate (Oura),bpm,58
+7/26/2021,,Misc,Sleep (Oura),hours,7.35833
+7/26/2021,,Misc,Heart Rate (Oura),bpm,59
+7/27/2021,,Misc,Sleep (Oura),hours,8.20833
+7/27/2021,,Misc,Heart Rate (Oura),bpm,55
+7/28/2021,,Misc,Sleep (Oura),hours,6.98333
+7/28/2021,,Misc,Heart Rate (Oura),bpm,54
+7/30/2021,,Misc,Sleep (Oura),hours,7.55
+7/30/2021,,Misc,Heart Rate (Oura),bpm,62
