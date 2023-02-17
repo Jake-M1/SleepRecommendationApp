@@ -8,5 +8,30 @@
 </ion-header>
 
 <ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-input [(ngModel)] = "useremail" type="email" placeholder="email@domain.com"></ion-input>
+    </ion-item>
+    
+    <!--
+    <ion-item>
+      <ion-label>Username input</ion-label>
+      <ion-input placeholder="Enter username"></ion-input>
+    </ion-item>
+    -->
+
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input [(ngModel)] = "password" type="password" placeholder="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>ReEnter Password</ion-label>
+      <ion-input [(ngModel)] = "repassword" type="password" placeholder="Re-password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="register()">Register</ion-button>
 
 </ion-content>

@@ -9,6 +9,11 @@ import { Router } from '@angular/router'
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+ 
+  constructor(){
+
+  }
+  /*
   constructor(
     private platform: Platform,
     private authService: AuthenticationService,
@@ -30,4 +35,5 @@ export class AppComponent {
       });
     });
   }
+  */
 }

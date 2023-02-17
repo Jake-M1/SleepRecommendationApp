@@ -11,6 +11,6 @@ export class Tab1Page {
   constructor(private authService: AuthenticationService) {}
 
   logout() {
-    this.authService.logout();
+    //this.authService.logout();
   }
 }
