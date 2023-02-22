@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthenticationService } from 'src/app/services/authentication.service';
+import {formatDate} from '@angular/common';
 
 @Component({
   selector: 'app-tab1',
@@ -7,8 +8,55 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  public myDate: any;
+  private selectedDate: string = formatDate(new Date(), 'yyyy-MM-dd', 'en');
+  private sampleData = new Map();
 
-  constructor(private authService: AuthenticationService) {}
+  constructor(private authService: AuthenticationService) {
+    this.sampleData.set("2023-02-20", ["83", "23670", "2023-02-19T22:51:07-07:00", "2023-02-20T06:00:07-07:00", "0"]);
+    this.sampleData.set("2023-02-21", ["94", "29190", "2023-02-20T21:36:31-07:00", "2023-02-21T06:07:31-07:00", "1"]);
+  }
+
+  setDate()
+  {
+    this.selectedDate = this.parseDate(this.myDate);
+  }
+
+  displayDate()
+  {
+    console.log(this.selectedDate);
+  }
+
+  getDate()
+  {
+    return this.selectedDate;
+  }
+
+  parseDate(ionicDate: string)
+  {
+    return ionicDate.slice(0, 10);
+  }
+
+  displayDateData(date: string)
+  {
+    if (this.sampleData.has(date))
+    {
+      var data = this.sampleData.get(date)
+      if (data[2].length > 5)
+      {
+        data[2] = data[2].slice(11, 16);
+      }
+      if (data[3].length > 5)
+      {
+        data[3] = data[3].slice(11, 16);
+      }
+      return data;
+    }
+    else
+    {
+      return ["N/A", "N/A", "N/A", "N/A", "N/A"]
+    }
+  }
 
   logout() {
     //this.authService.logout();

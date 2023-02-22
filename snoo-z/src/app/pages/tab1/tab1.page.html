@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/home"></ion-back-button>
     </ion-buttons>
-    <ion-title>Tab 1</ion-title>
+    <ion-title>Data</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -11,11 +11,39 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Data</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-datetime presentation="day-month-year" [preferWheel]="true" [(ngModel)]="myDate" (ionChange)="setDate()"></ion-datetime>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Sleep Score: {{ displayDateData(getDate())[0] }} </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Sleep Duration: {{ displayDateData(getDate())[1] }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Bedtime Start: {{ displayDateData(getDate())[2] }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Bedtime End: {{ displayDateData(getDate())[3] }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Caffine: {{ displayDateData(getDate())[4] }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
 
 <ion-footer collapse="fade">
@@ -25,17 +53,17 @@
 
           <ion-tab-button>
             <ion-icon name="bed"></ion-icon>
-            <ion-label>tap1</ion-label>
+            <ion-label>Data</ion-label>
           </ion-tab-button>
 
             <ion-tab-button routerLink="../tab2">
-              <ion-icon name="happy-outline"></ion-icon>
-              <ion-label>tap2</ion-label>
+              <ion-icon name="analytics"></ion-icon>
+              <ion-label>Trends</ion-label>
             </ion-tab-button>
 
             <ion-tab-button routerLink="../tab3">
-              <ion-icon name="analytics"></ion-icon>
-              <ion-label>tap3</ion-label>
+              <ion-icon name="happy-outline"></ion-icon>
+              <ion-label>Recommendations</ion-label>
             </ion-tab-button>
 
       </ion-tab-bar>

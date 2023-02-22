@@ -30,8 +30,11 @@
     "@ionic/angular": "^6.1.9",
     "@ionic/storage": "^2.3.0",
     "@ionic/storage-angular": "^3.0.6",
+    "chart.js": "^4.2.1",
+    "chartjs-adapter-moment": "^1.0.1",
     "firebase": "^9.17.1",
     "ionicons": "^6.0.3",
+    "moment": "^2.29.4",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

@@ -17,29 +17,58 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        <ion-button expand="block">D</ion-button>
+        <ion-button expand="block" (click)="showWeek()">W</ion-button>
       </ion-col>
       <ion-col>
-        <ion-button expand="block">W</ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button expand="block">M</ion-button>
+        <ion-button expand="block" (click)="showMonth()">M</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
 
-  <ion-infinite-scroll *ngIf="showing" threshold="100px">
-    <ion-infinite-scroll-content>
-      <ion-card *ngFor="let t of chartTitles" color="secondary">
-       <ion-card-header>
-         <ion-card-title>{{t}}</ion-card-title>
-       </ion-card-header>
-       <ion-card-content>
-        [graph here]
-       </ion-card-content>
-     </ion-card>
-    </ion-infinite-scroll-content>
-  </ion-infinite-scroll>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Sleep Quality</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #sleepQualityCanvas></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Sleep Duration</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #sleepDurationCanvas></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Bedtime Start</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #bedtimeStartCanvas></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Bedtime End</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #bedtimeEndCanvas></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Caffine</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #caffineCanvas></canvas>
+    </ion-card-content>
+  </ion-card>
 
   <!-- <app-explore-container name="Tab 2 page"></app-explore-container> -->
 </ion-content>
@@ -51,17 +80,17 @@
 
           <ion-tab-button routerLink="../tab1">
             <ion-icon name="bed"></ion-icon>
-            <ion-label>tap1</ion-label>
+            <ion-label>Data</ion-label>
           </ion-tab-button>
 
             <ion-tab-button>
-              <ion-icon name="happy-outline"></ion-icon>
-              <ion-label>tap2</ion-label>
+              <ion-icon name="analytics"></ion-icon>
+              <ion-label>Trends</ion-label>
             </ion-tab-button>
 
             <ion-tab-button routerLink="../tab3">
-              <ion-icon name="analytics"></ion-icon>
-              <ion-label>tap3</ion-label>
+              <ion-icon name="happy-outline"></ion-icon>
+              <ion-label>Recommendations</ion-label>
             </ion-tab-button>
 
       </ion-tab-bar>
