@@ -10,7 +10,7 @@ export class Tab3Page implements OnInit{
   showing: boolean = true;
   constructor() {}
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
 }
