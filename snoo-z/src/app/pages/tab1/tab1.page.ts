@@ -16,15 +16,19 @@ export class Tab1Page implements OnInit {
   private user:UserData[] | undefined;
   
   constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {
-    this.sampleData.set("2023-02-20", ["83", "23670", "2023-02-19T22:51:07-07:00", "2023-02-20T06:00:07-07:00", "0"]);
-    this.sampleData.set("2023-02-21", ["94", "29190", "2023-02-20T21:36:31-07:00", "2023-02-21T06:07:31-07:00", "1"]);
+    //this.sampleData.set("2023-02-20", ["83", "23670", "2023-02-19T22:51:07-07:00", "2023-02-20T06:00:07-07:00", "0"]);
+    //this.sampleData.set("2023-02-21", ["94", "29190", "2023-02-20T21:36:31-07:00", "2023-02-21T06:07:31-07:00", "1"]);
   }
   ngOnInit(): void {
     this.firestore.collection('/user').snapshotChanges().subscribe(res =>{
       this.user = res.map((e:any) =>{
            return new UserData(e.payload.doc.data());
       })
+      this.user?.forEach((data) =>{
+        this.sampleData.set(data['date'], [data['sleep_score'], data['total_sleep_duration'], data['bedtime_start'], data['bedtime_end'], 0]);
+      });
     });
+    
   }
 
   setDate()
