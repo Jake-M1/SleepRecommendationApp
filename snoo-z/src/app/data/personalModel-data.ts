@@ -1,0 +1,32 @@
+export class PersonalModelData{
+    date:string;
+    bedtime_start:string;
+    bedtime_end:string;
+    sleep_score:number;
+    total_sleep_duration:number;
+    awake_time:number;
+    steps:number;
+    water:number;
+    sugar:number;
+    caffeine:number;
+    caffeine_before:number;
+    caffeine_after:number;
+    alcohol:number;
+
+    constructor(objectModel:any){
+        this.date = objectModel['date'];
+        this.bedtime_start = objectModel['bedtime_start'];
+        this.bedtime_end = objectModel['bedtime_end'];
+        this.sleep_score = objectModel['sleep_score'];
+        this.total_sleep_duration = objectModel['total_sleep_duration'];
+        this.awake_time = objectModel['awake_time'];
+        this.steps = objectModel['steps'];
+        this.water = objectModel['water'];
+        this.sugar = objectModel['sugar'];
+        this.caffeine = objectModel['caffeine'];
+        this.caffeine_before = objectModel['caffeine_before'];
+        this.caffeine_after = objectModel['caffeine_after'];
+        this.alcohol = objectModel['alcohol'];
+
+    }
+}

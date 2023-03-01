@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFirestore, AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { PersonalModelData } from '../data/personalModel-data';
 import { UserData } from '../data/user-data';
 import { AuthenticationService } from '../services/authentication.service';
 
@@ -11,6 +12,7 @@ import { AuthenticationService } from '../services/authentication.service';
 export class HomePage implements OnInit {
   
   user:UserData[] | undefined;
+  personal_model:PersonalModelData[] | undefined;
 
   constructor(private firestore: AngularFirestore, private authService: AuthenticationService) { }
 
@@ -22,12 +24,20 @@ export class HomePage implements OnInit {
       })
     });
     
+    this.firestore.collection('/personal_model').snapshotChanges().subscribe(res =>{
+      this.personal_model = res.map((e:any) =>{
+           return new PersonalModelData(e.payload.doc.data());
+      })
+   
+    });
+    
   }
 
 
   logout(){
+    
     this.authService.logout();
-  
+    //console.log(this.personal_model);
     //console.log(this.user);
   }
 }
