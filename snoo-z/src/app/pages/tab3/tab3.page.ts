@@ -29,10 +29,16 @@ export class Tab3Page implements OnInit{
 
   private model:PersonalModelData = new PersonalModelData(this.personalModel);
 
+  percentDifference(oldValue: number, newValue: number): number {
+    const difference = Math.abs(newValue - oldValue);
+    const percent = (difference / oldValue) * 100;
+    return percent;
+  }
+
   constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {}
   ngOnInit(): void {
     console.log(this.model.awake_time);
-    
+
     // this.firestore.collection('/user').snapshotChanges().subscribe(res =>{
     //   this.model = res.map((e:any) =>{
     //     return new PersonalModelData(e.payload.doc.data());
