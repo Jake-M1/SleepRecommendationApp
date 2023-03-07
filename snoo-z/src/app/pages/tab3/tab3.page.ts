@@ -13,7 +13,7 @@ import { UserData } from 'src/app/data/user-data';
 export class Tab3Page implements OnInit{
   recs = ["This is dummy data", "Sleep Earlier", "Sleep Later", "Stop caffeine intake"];
   showing: boolean = true;
-  recentDate = new Date(2000, 1, 1);
+  recentDate = new Date(2000, 0, 1);
   date = new Date();
 
   recentModel = {
@@ -56,7 +56,7 @@ export class Tab3Page implements OnInit{
 
   createDate(date:String){
    const dateArr = date.split("-");
-   return new Date(Number(dateArr[0]), Number(dateArr[1]), Number(dateArr[2]));
+   return new Date(Number(dateArr[0]), Number(dateArr[1])-1, Number(dateArr[2]));
   }
 
   constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {}
@@ -77,18 +77,17 @@ export class Tab3Page implements OnInit{
     
     this.firestore.collection('/user').snapshotChanges().subscribe(res =>{
       this.user = res.map((e:any) =>{
-           return new UserData(e.payload.doc.data());
-           
+        return new UserData(e.payload.doc.data());
       })
       this.user?.forEach((data) =>{
         this.date = this.createDate(data['date']);
         if(this.recentDate == null){
           this.recentDate = this.date;
-          this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
-          this.recentModel['awake_time'] = data['awake_time'];
-          this.recentModel['bedtime_start'] = data['bedtime_start'];
-          this.recentModel['bedtime_end'] = data['bedtime_end'];
-          this.recentModel['steps'] = data['steps'];
+          // this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
+          // this.recentModel['awake_time'] = data['awake_time'];
+          // this.recentModel['bedtime_start'] = data['bedtime_start'];
+          // this.recentModel['bedtime_end'] = data['bedtime_end'];
+          // this.recentModel['steps'] = data['steps'];
           // this.recentModel['alcohol'] = data['alcohol'];
           // this.recentModel['water'] = data['water'];
           // this.recentModel['sugar'] = data['sugar'];
@@ -97,11 +96,11 @@ export class Tab3Page implements OnInit{
           // this.recentModel['caffeine_after'] = data['caffeine_after'];
         }else if(this.date > this.recentDate){
           this.recentDate = this.date;
-          this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
-          this.recentModel['awake_time'] = data['awake_time'];
-          this.recentModel['bedtime_start'] = data['bedtime_start'];
-          this.recentModel['bedtime_end'] = data['bedtime_end'];
-          this.recentModel['steps'] = data['steps'];
+          // this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
+          // this.recentModel['awake_time'] = data['awake_time'];
+          // this.recentModel['bedtime_start'] = data['bedtime_start'];
+          // this.recentModel['bedtime_end'] = data['bedtime_end'];
+          // this.recentModel['steps'] = data['steps'];
           // this.recentModel['alcohol'] = data['alcohol'];
           // this.recentModel['water'] = data['water'];
           // this.recentModel['sugar'] = data['sugar'];
