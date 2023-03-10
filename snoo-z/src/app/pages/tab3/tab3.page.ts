@@ -189,7 +189,7 @@ export class Tab3Page implements OnInit{
     this.percentDiffs['caffeine_after'] = this.percentDifference(this.recentModel['caffeine_after'], this.personalModel['caffeine_after']);
     console.log(this.percentDiffs);
   
-    this.percentDiffs.sort()
+    //this.percentDiffs.sort()
   }
 //either change database format since 1 personal model and raw data OR add date field to personal model since i need most recent
 
