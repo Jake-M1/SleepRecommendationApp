@@ -3,6 +3,7 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { PersonalModelData } from 'src/app/data/personalModel-data';
 import { AuthenticationService } from 'src/app/services/authentication.service';
 import { UserData } from 'src/app/data/user-data';
+import { SleepData } from 'src/app/data/sleep-data';
 
 
 @Component({
@@ -11,10 +12,15 @@ import { UserData } from 'src/app/data/user-data';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page implements OnInit{
-  recs = ["Reduce alchohol intake", "Sleep Earlier", "Sleep Later", "Stop caffeine intake in the evening", "Reduce caffeine intake during the day"];
+  recs = ["Reduce alchohol intake", 
+    "Sleep Earlier", 
+    "Sleep Later", 
+    "Stop caffeine intake in the evening", 
+    "Reduce caffeine intake during the day"];
   showing: boolean = true;
   recentDate = new Date(2000, 0, 1);
   date = new Date();
+  sortedModel = {};
 
   // recentModel = {
   //   'total_sleep_duration': 0, 
@@ -46,8 +52,8 @@ export class Tab3Page implements OnInit{
   percentDiffs = {
     'total_sleep_duration': 0, 
     'awake_time': 1404.85, 
-    'bedtime_start': '', 
-    'bedtime_end': '', 
+    'bedtime_start': 0, 
+    'bedtime_end': 0, 
     'steps': 0, 
     'alcohol': 0, 
     'water': 0, 
@@ -73,7 +79,7 @@ export class Tab3Page implements OnInit{
 
   //private model:PersonalModelData = new PersonalModelData(this.personalModel);
   private model:PersonalModelData[] | undefined;
-  private user:UserData[] | undefined;
+  private sleepdata:SleepData[] | undefined;
 
   percentDifference(newValue: number, oldValue: number): number {
     if(oldValue == newValue){
@@ -96,6 +102,11 @@ export class Tab3Page implements OnInit{
    return new Date(Number(dateArr[0]), Number(dateArr[1])-1, Number(dateArr[2]));
   }
 
+  convertDate(str:string){
+    const date = new Date(str);
+    return date.toLocaleTimeString('it-IT');
+  }
+
   constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {}
   
   ngOnInit(): void {
@@ -105,81 +116,81 @@ export class Tab3Page implements OnInit{
       this.model = res.map((e:any) =>{
         return new PersonalModelData(e.payload.doc.data());
       })
-    //   this.model?.forEach((data) =>{
-    //     console.log(data['caffeine_before']);
-    //   });
+      this.model?.forEach((data) => {
+        this.personalModel = new PersonalModelData(data);
+      })
     })
 
-    console.log("model", " ", this.model);
+    console.log("model: ", " ", this.personalModel);
 
     
-    this.firestore.collection('/user').snapshotChanges().subscribe(res =>{
-      this.user = res.map((e:any) =>{
-        return new UserData(e.payload.doc.data());
+    this.firestore.collection('/data').snapshotChanges().subscribe(res =>{
+      this.sleepdata = res.map((e:any) =>{
+        return new SleepData(e.payload.doc.data());
       })
-      this.user?.forEach((data) =>{
+      this.sleepdata?.forEach((data) =>{
         this.date = this.createDate(data['date']);
         if(this.recentDate == null){
           this.recentDate = this.date;
-          // this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
-          // this.recentModel['awake_time'] = data['awake_time'];
-          // this.recentModel['bedtime_start'] = data['bedtime_start'];
-          // this.recentModel['bedtime_end'] = data['bedtime_end'];
-          // this.recentModel['steps'] = data['steps'];
-          // this.recentModel['alcohol'] = data['alcohol'];
-          // this.recentModel['water'] = data['water'];
-          // this.recentModel['sugar'] = data['sugar'];
-          // this.recentModel['caffeine'] = data['caffeine'];
-          // this.recentModel['caffeine_before'] = data['caffeine_before'];
-          // this.recentModel['caffeine_after'] = data['caffeine_after'];
-          this.recentModel['total_sleep_duration'] = 30000;
-          this.recentModel['awake_time'] = 1000;
-          this.recentModel['bedtime_start'] = '21:12:18';
-          this.recentModel['bedtime_end'] = '05:37:41';
+          this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
+          this.recentModel['awake_time'] = data['awake_time'];
+          this.recentModel['bedtime_start'] = this.convertDate(data['bedtime_start']);
+          this.recentModel['bedtime_end'] = this.convertDate(data['bedtime_end']);
           this.recentModel['steps'] = data['steps'];
-          this.recentModel['alcohol'] = 0.02;
-          this.recentModel['water'] = 0;
-          this.recentModel['sugar'] = 200;
-          this.recentModel['caffeine'] = 300;
-          this.recentModel['caffeine_before'] = 200;
-          this.recentModel['caffeine_after'] = 100;
+          this.recentModel['alcohol'] = data['alcohol'];
+          this.recentModel['water'] = data['water'];
+          this.recentModel['sugar'] = data['sugar'];
+          this.recentModel['caffeine'] = data['caffeine'];
+          this.recentModel['caffeine_before'] = data['caffeine_before'];
+          this.recentModel['caffeine_after'] = data['caffeine_after'];
+          // this.recentModel['total_sleep_duration'] = 30000;
+          // this.recentModel['awake_time'] = 1000;
+          // this.recentModel['bedtime_start'] = '21:12:18';
+          // this.recentModel['bedtime_end'] = '05:37:41';
+          // this.recentModel['steps'] = data['steps'];
+          // this.recentModel['alcohol'] = 0.02;
+          // this.recentModel['water'] = 0;
+          // this.recentModel['sugar'] = 200;
+          // this.recentModel['caffeine'] = 300;
+          // this.recentModel['caffeine_before'] = 200;
+          // this.recentModel['caffeine_after'] = 100;
         }else if(this.date > this.recentDate){
           this.recentDate = this.date;
-          // this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
-          // this.recentModel['awake_time'] = data['awake_time'];
-          // this.recentModel['bedtime_start'] = data['bedtime_start'];
-          // this.recentModel['bedtime_end'] = data['bedtime_end'];
-          // this.recentModel['steps'] = data['steps'];
-          // this.recentModel['alcohol'] = data['alcohol'];
-          // this.recentModel['water'] = data['water'];
-          // this.recentModel['sugar'] = data['sugar'];
-          // this.recentModel['caffeine'] = data['caffeine'];
-          // this.recentModel['caffeine_before'] = data['caffeine_before'];
-          // this.recentModel['caffeine_after'] = data['caffeine_after'];
-          this.recentModel['total_sleep_duration'] = 30000;
-          this.recentModel['awake_time'] = 1000;
-          this.recentModel['bedtime_start'] = '21:12:18';
-          this.recentModel['bedtime_end'] = '05:37:41';
+          this.recentModel['total_sleep_duration'] = data['total_sleep_duration'];
+          this.recentModel['awake_time'] = data['awake_time'];
+          this.recentModel['bedtime_start'] = this.convertDate(data['bedtime_start']);
+          this.recentModel['bedtime_end'] = this.convertDate(data['bedtime_end']);
           this.recentModel['steps'] = data['steps'];
-          this.recentModel['alcohol'] = 0.02;
-          this.recentModel['water'] = 0;
-          this.recentModel['sugar'] = 200;
-          this.recentModel['caffeine'] = 300;
-          this.recentModel['caffeine_before'] = 200;
-          this.recentModel['caffeine_after'] = 100;
+          this.recentModel['alcohol'] = data['alcohol'];
+          this.recentModel['water'] = data['water'];
+          this.recentModel['sugar'] = data['sugar'];
+          this.recentModel['caffeine'] = data['caffeine'];
+          this.recentModel['caffeine_before'] = data['caffeine_before'];
+          this.recentModel['caffeine_after'] = data['caffeine_after'];
+          // this.recentModel['total_sleep_duration'] = 30000;
+          // this.recentModel['awake_time'] = 1000;
+          // this.recentModel['bedtime_start'] = '21:12:18';
+          // this.recentModel['bedtime_end'] = '05:37:41';
+          // this.recentModel['steps'] = data['steps'];
+          // this.recentModel['alcohol'] = 0.02;
+          // this.recentModel['water'] = 0;
+          // this.recentModel['sugar'] = 200;
+          // this.recentModel['caffeine'] = 300;
+          // this.recentModel['caffeine_before'] = 200;
+          // this.recentModel['caffeine_after'] = 100;
         }
       });
 
     });
-
+    console.log("sleep data", this.sleepdata);
     console.log("recent model", this.recentModel);
     console.log("%", this.percentDiffs);
     console.log(this.recentModel.alcohol, " ",this.personalModel['total_sleep_duration']);
-    console.log("recent model", this.recentModel);
+    console.log("recent model 2", this.recentModel);
     this.percentDiffs['total_sleep_duration'] = this.percentDifference(this.recentModel['total_sleep_duration'], this.personalModel['total_sleep_duration']);
     this.percentDiffs['awake_time'] = this.percentDifference(this.recentModel['awake_time'], this.personalModel['awake_time']);
-    // this.percentDiffs['bedtime_start'] = this.percentDifference(this.recentModel['bedtime_start'], this.personalModel[''bedtime_start]);
-    // this.percentDiffs['bedtime_end'] = this.percentDifference(this.recentModel['bedtime_end'], this.personalModel['bedtime_end']);
+    //this.percentDiffs['bedtime_start'] = String(this.percentDifference(this.recentModel['bedtime_start'], this.personalModel['bedtime_start']));
+    // this.percentDiffs['bedtime_end'] = String(this.percentDifference(this.recentModel['bedtime_end'], this.personalModel['bedtime_end']));
     this.percentDiffs['steps'] = this.percentDifference(this.recentModel['steps'], this.personalModel['steps']);
     this.percentDiffs['alcohol'] = this.percentDifference(this.recentModel['alcohol'], this.personalModel['alcohol']);
     this.percentDiffs['water'] = this.percentDifference(this.recentModel['water'], this.personalModel['water']);
@@ -189,7 +200,8 @@ export class Tab3Page implements OnInit{
     this.percentDiffs['caffeine_after'] = this.percentDifference(this.recentModel['caffeine_after'], this.personalModel['caffeine_after']);
     console.log(this.percentDiffs);
   
-    //this.percentDiffs.sort()
+    this.sortedModel = Object.entries(this.percentDiffs).sort((a,b) => a[1] - b[1]);
+    console.log("sortedmodel", this.sortedModel);
   }
 //either change database format since 1 personal model and raw data OR add date field to personal model since i need most recent
 
