@@ -14,6 +14,7 @@ import {formatDate} from '@angular/common';
 })
 export class Tab3Page implements OnInit{
   recs:string[] = [];
+  recValues:string[] = [];
   showing: boolean = true;
   recentDate = new Date(2000, 0, 1);
   date = new Date();
@@ -154,6 +155,10 @@ export class Tab3Page implements OnInit{
     return hourStr + ":" + minuteStr + ":" + secondStr;
   }
 
+  getRecVals(){
+    return this.recValues;
+  }
+
   constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {}
   
   ngOnInit(): void {
@@ -264,71 +269,85 @@ export class Tab3Page implements OnInit{
         if(this.sortedModel[i][0] == "caffeine"){
           if(this.recentModel.get('caffeine') > this.personalModel['caffeine']){
             this.recs.push("Reduce caffeine intake to around " + this.personalModel['caffeine'] + "mg.");
+            this.recValues.push('caffeine');
             this.count++;
           }
         }
         if(this.sortedModel[i][0] == "caffeine_after"){
           if(this.recentModel.get('caffeine_after') > this.personalModel['caffeine_after']){
             this.recs.push("Reduce caffeine intake after 6pm to around " + this.personalModel['caffeine_after'] + "mg.");
+            this.recValues.push('caffeine_after');
             this.count++;
           }
         }
         if(this.sortedModel[i][0] == "caffeine_before"){
           if(this.recentModel.get('caffeine_before') > this.personalModel['caffeine_before']){
             this.recs.push("Reduce caffeine intake before 6pm to around " + this.personalModel['caffeine_before'] + "mg.");
+            this.recValues.push('caffeine_before');
             this.count++;
           }
         }
         if(this.sortedModel[i][0] == "alcohol"){
           if(this.recentModel.get('alcohol') > this.personalModel['alcohol']){
             this.recs.push("Reduce alcohol consumption to around " + this.personalModel['alcohol'] + " grams.");
+            this.recValues.push('alcohol');
             this.count++;
           }
         }
         if(this.sortedModel[i][0] == "steps"){
           if(this.recentModel.get('steps') > this.personalModel['steps']){
             this.recs.push("Reduce your daily steps to around " + this.personalModel['steps'] + " steps.");
+            this.recValues.push('steps');
             this.count++;
           }
           if(this.recentModel.get('steps') < this.personalModel['steps']){
             this.recs.push("Increase your daily steps to around " + this.personalModel['steps'] + " steps.");
+            this.recValues.push('steps');
             this.count++;
           }
         }
         if(this.sortedModel[i][0] == "bedtime_end"){
           if(this.timeToSeconds(this.recentModel.get('bedtime_end')) > this.timeToSeconds(this.personalModel['bedtime_end'])){
             this.recs.push("Try waking up earlier at around " + this.personalModel['bedtime_end'] + " hours.");
+            this.recValues.push('bedtime_end');
           }
           if(this.timeToSeconds(this.recentModel.get('bedtime_end')) < this.timeToSeconds(this.personalModel['bedtime_end'])){
             this.recs.push("Try waking up later at around " + this.personalModel['bedtime_end'] + " hours.");
+            this.recValues.push('bedtime_end');
           }
         }
         if(this.sortedModel[i][0] == "water"){
           if(this.recentModel.get('water') > this.personalModel['water']){
             this.recs.push("Drink less water before bed.");
+            this.recValues.push('water');
             this.count++;
           }
           if(this.recentModel.get('water') < this.personalModel['water']){
             this.recs.push("Increase your water intake to around " + this.personalModel['water'] + " grams.");
+            this.recValues.push('water');
             this.count++;
           }
         }
         if(this.sortedModel[i][0] == "sugar"){
           if(this.recentModel.get('sugar') > this.personalModel['sugar']){
             this.recs.push("Reduce your sugar intake to around " + this.personalModel['sugar'] + " grams.");
+            this.recValues.push('sugar');
             this.count++;
           }
           if(this.recentModel.get('sugar') < this.personalModel['sugar']){
             this.recs.push("Increase your sugar intake to around " + this.personalModel['sugar'] + " grams.");
+            this.recValues.push('sugar');
             this.count++;
           }
         }
         if(this.sortedModel[i][0] == "bedtime_start"){
           if(this.timeToSeconds(this.recentModel.get('bedtime_start')) > this.timeToSeconds(this.personalModel['bedtime_start'])){
             this.recs.push("Sleep earlier. Try to sleep at around " + this.personalModel['bedtime_start'] + " hours.");
+            this.recValues.push('bedtime_start');
           }
           if(this.timeToSeconds(this.recentModel.get('bedtime_start')) < this.timeToSeconds(this.personalModel['bedtime_start'])){
             this.recs.push("Try sleeping later at around " + this.personalModel['bedtime_start'] + " hours.");
+            this.recValues.push('bedtime_start');
           }
         }
       }
