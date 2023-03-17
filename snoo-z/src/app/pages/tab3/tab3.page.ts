@@ -4,6 +4,7 @@ import { PersonalModelData } from 'src/app/data/personalModel-data';
 import { AuthenticationService } from 'src/app/services/authentication.service';
 import { UserData } from 'src/app/data/user-data';
 import { SleepData } from 'src/app/data/sleep-data';
+import {formatDate} from '@angular/common';
 
 
 @Component({
@@ -12,17 +13,14 @@ import { SleepData } from 'src/app/data/sleep-data';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page implements OnInit{
-  recs = ["Reduce alchohol intake", 
-    "Sleep Earlier", 
-    "Sleep Later", 
-    "Stop caffeine intake in the evening", 
-    "Reduce caffeine intake during the day"];
+  recs:string[] = [];
   showing: boolean = true;
   recentDate = new Date(2000, 0, 1);
   date = new Date();
-  sortedModel = {};
+  sortedModel:(string | number)[][] = [[]];
   personalFlag = 0;
   recentFlag = 0;
+  count = 0;
 
   // recentModel = {
   //   'total_sleep_duration': 0, 
@@ -93,7 +91,7 @@ export class Tab3Page implements OnInit{
     if(oldValue == 0 || newValue == 0){
       return 100;
     }
-    console.log("from recent:", newValue, "from old", oldValue);
+    //console.log("from recent:", newValue, "from old", oldValue);
     const difference = Math.abs(newValue - oldValue);
     const percent = (difference / newValue) * 100;
     return percent;      
@@ -111,6 +109,51 @@ export class Tab3Page implements OnInit{
     return date.toLocaleTimeString('it-IT');
   }
 
+  timeToSeconds(time: string)
+  {
+    var totalSeconds = 0;
+    totalSeconds += parseInt(time.slice(0, 2)) * 3600;
+    totalSeconds += parseInt(time.slice(3, 5)) * 60;
+    totalSeconds += parseInt(time.slice(6, 8));
+    return totalSeconds;
+  }
+
+  secondsToTime(secondsTotal: number)
+  {
+    var hours = secondsTotal / 3600;
+    var hoursRounded = Math.floor(hours);
+    var minutes = (hours - hoursRounded) * 60;
+    var minutesRounded = Math.floor(minutes);
+    var seconds = Math.floor((minutes - minutesRounded) * 60);
+
+    if (hoursRounded >= 10)
+    {
+      var hourStr = hoursRounded.toString();
+    }
+    else
+    {
+      var hourStr = "0" + hoursRounded.toString();
+    }
+    if (minutesRounded >= 10)
+    {
+      var minuteStr = minutesRounded.toString();
+    }
+    else
+    {
+      var minuteStr = "0" + minutesRounded.toString();
+    }
+    if (seconds >= 10)
+    {
+      var secondStr = seconds.toString();
+    }
+    else
+    {
+      var secondStr = "0" + seconds.toString();
+    }
+
+    return hourStr + ":" + minuteStr + ":" + secondStr;
+  }
+
   constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {}
   
   ngOnInit(): void {
@@ -126,7 +169,7 @@ export class Tab3Page implements OnInit{
       this.personalFlag = 1;
     })
 
-    console.log("model: ", " ", this.personalModel);
+    //console.log("model: ", " ", this.personalModel);
 
     
     this.firestore.collection('/data').snapshotChanges().subscribe(res =>{
@@ -136,7 +179,7 @@ export class Tab3Page implements OnInit{
       this.sleepdata?.forEach((data) =>{
         this.date = this.createDate(data['date']);
         if(this.recentDate == null){
-          console.log("RECENT MODEL UPDATED");
+          //console.log("RECENT MODEL UPDATED");
           this.recentDate = this.date;
           this.recentModel.set('total_sleep_duration', data['total_sleep_duration']);
           this.recentModel.set('awake_time', data['awake_time']);
@@ -162,8 +205,8 @@ export class Tab3Page implements OnInit{
           // this.recentModel['caffeine_after'] = data['caffeine_after'];
           this.percentDiffs['total_sleep_duration'] = this.percentDifference(this.recentModel.get('total_sleep_duration'), this.personalModel['total_sleep_duration']);
           this.percentDiffs['awake_time'] = this.percentDifference(this.recentModel.get('awake_time'), this.personalModel['awake_time']);
-          //this.percentDiffs['bedtime_start'] = String(this.percentDifference(this.recentModel.get('bedtime_start'), this.personalModel['bedtime_start']));
-          // this.percentDiffs['bedtime_end'] = String(this.percentDifference(this.recentModel.get('bedtime_end'), this.personalModel['bedtime_end']));
+          this.percentDiffs['bedtime_start'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_start')), this.timeToSeconds(this.personalModel['bedtime_start']));
+          this.percentDiffs['bedtime_end'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_end')), this.timeToSeconds(this.personalModel['bedtime_end']));
           this.percentDiffs['steps'] = this.percentDifference(this.recentModel.get('steps'), this.personalModel['steps']);
           this.percentDiffs['alcohol'] = this.percentDifference(this.recentModel.get('alcohol'), this.personalModel['alcohol']);
           this.percentDiffs['water'] = this.percentDifference(this.recentModel.get('water'), this.personalModel['water']);
@@ -173,7 +216,7 @@ export class Tab3Page implements OnInit{
           this.percentDiffs['caffeine_after'] = this.percentDifference(this.recentModel.get('caffeine_after'), this.personalModel['caffeine_after']);
           this.sortedModel = Object.entries(this.percentDiffs).sort((a,b) => a[1] - b[1]);
         }else if(this.date > this.recentDate){
-          console.log("RECENT MODEL UPDATED");
+          //console.log("RECENT MODEL UPDATED");
           this.recentDate = this.date;
           this.recentModel.set('total_sleep_duration', data['total_sleep_duration']);
           this.recentModel.set('awake_time', data['awake_time']);
@@ -198,8 +241,8 @@ export class Tab3Page implements OnInit{
           // this.recentModel['caffeine_after'] = data['caffeine_after'];
           this.percentDiffs['total_sleep_duration'] = this.percentDifference(this.recentModel.get('total_sleep_duration'), this.personalModel['total_sleep_duration']);
           this.percentDiffs['awake_time'] = this.percentDifference(this.recentModel.get('awake_time'), this.personalModel['awake_time']);
-          //this.percentDiffs['bedtime_start'] = String(this.percentDifference(this.recentModel.get('bedtime_start'), this.personalModel['bedtime_start']));
-          // this.percentDiffs['bedtime_end'] = String(this.percentDifference(this.recentModel.get('bedtime_end'), this.personalModel['bedtime_end']));
+          this.percentDiffs['bedtime_start'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_start')), this.timeToSeconds(this.personalModel['bedtime_start']));
+          this.percentDiffs['bedtime_end'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_end')), this.timeToSeconds(this.personalModel['bedtime_end']));
           this.percentDiffs['steps'] = this.percentDifference(this.recentModel.get('steps'), this.personalModel['steps']);
           this.percentDiffs['alcohol'] = this.percentDifference(this.recentModel.get('alcohol'), this.personalModel['alcohol']);
           this.percentDiffs['water'] = this.percentDifference(this.recentModel.get('water'), this.personalModel['water']);
@@ -208,26 +251,94 @@ export class Tab3Page implements OnInit{
           this.percentDiffs['caffeine_before'] = this.percentDifference(this.recentModel.get('caffeine_before'), this.personalModel['caffeine_before']);
           this.percentDiffs['caffeine_after'] = this.percentDifference(this.recentModel.get('caffeine_after'), this.personalModel['caffeine_after']);
           this.sortedModel = Object.entries(this.percentDiffs).sort((a,b) => a[1] - b[1]);
-          console.log(this.percentDiffs);
-          console.log("sortedmodel", this.sortedModel);
+          // console.log(this.percentDiffs);
+          // console.log("sortedmodel", this.sortedModel);
         }
 
       });
-      this.recentFlag = 1;
+      console.log("sortedmodel", this.sortedModel);
+      for(let i = 9; i >= 0; i--){
+        if(this.count == 5){
+          break;
+        }
+        if(this.sortedModel[i][0] == "caffeine"){
+          if(this.recentModel.get('caffeine') > this.personalModel['caffeine']){
+            this.recs.push("Reduce caffeine intake to around " + this.personalModel['caffeine'] + "mg.");
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "caffeine_after"){
+          if(this.recentModel.get('caffeine_after') > this.personalModel['caffeine_after']){
+            this.recs.push("Reduce caffeine intake after 6pm to around " + this.personalModel['caffeine_after'] + "mg.");
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "caffeine_before"){
+          if(this.recentModel.get('caffeine_before') > this.personalModel['caffeine_before']){
+            this.recs.push("Reduce caffeine intake before 6pm to around " + this.personalModel['caffeine_before'] + "mg.");
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "alcohol"){
+          if(this.recentModel.get('alcohol') > this.personalModel['alcohol']){
+            this.recs.push("Reduce alcohol consumption to around " + this.personalModel['alcohol'] + " grams.");
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "steps"){
+          if(this.recentModel.get('steps') > this.personalModel['steps']){
+            this.recs.push("Reduce your daily steps to around " + this.personalModel['steps'] + " steps.");
+            this.count++;
+          }
+          if(this.recentModel.get('steps') < this.personalModel['steps']){
+            this.recs.push("Increase your daily steps to around " + this.personalModel['steps'] + " steps.");
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "bedtime_end"){
+          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) > this.timeToSeconds(this.personalModel['bedtime_end'])){
+            this.recs.push("Try waking up earlier at around " + this.personalModel['bedtime_end'] + " hours.");
+          }
+          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) < this.timeToSeconds(this.personalModel['bedtime_end'])){
+            this.recs.push("Try waking up later at around " + this.personalModel['bedtime_end'] + " hours.");
+          }
+        }
+        if(this.sortedModel[i][0] == "water"){
+          if(this.recentModel.get('water') > this.personalModel['water']){
+            this.recs.push("Drink less water before bed.");
+            this.count++;
+          }
+          if(this.recentModel.get('water') < this.personalModel['water']){
+            this.recs.push("Increase your water intake to around " + this.personalModel['water'] + " grams.");
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "sugar"){
+          if(this.recentModel.get('sugar') > this.personalModel['sugar']){
+            this.recs.push("Reduce your sugar intake to around " + this.personalModel['sugar'] + " grams.");
+            this.count++;
+          }
+          if(this.recentModel.get('sugar') < this.personalModel['sugar']){
+            this.recs.push("Increase your sugar intake to around " + this.personalModel['sugar'] + " grams.");
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "bedtime_start"){
+          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) > this.timeToSeconds(this.personalModel['bedtime_start'])){
+            this.recs.push("Sleep earlier. Try to sleep at around " + this.personalModel['bedtime_start'] + " hours.");
+          }
+          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) < this.timeToSeconds(this.personalModel['bedtime_start'])){
+            this.recs.push("Try sleeping later at around " + this.personalModel['bedtime_start'] + " hours.");
+          }
+        }
+      }
+
     });
     // if(this.recentFlag == 1 && this.personalFlag == 1){
-    console.log("sleep data", this.sleepdata);
     console.log("recent model", this.recentModel);
-    console.log(this.recentModel.get('total_sleep_duration'), "size: ", this.recentModel.size);
-    console.log("%", this.percentDiffs);
-
-    console.log("new percentDiffs: ", this.percentDiffs);
-  
+    console.log("percent difference model", this.percentDiffs);
+    console.log("personal model: ", " ", this.personalModel);
     
-    console.log("sortedmodel", this.sortedModel);
     //}
   }
-//either change database format since 1 personal model and raw data OR add date field to personal model since i need most recent
-
-  
 }
