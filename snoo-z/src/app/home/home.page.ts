@@ -135,6 +135,7 @@ export class HomePage implements OnInit {
   setDate()
   {
     this.selectedDateTime = this.parseDate(this.myDate);
+    this.shareRec.generateNewRecommendations(this.selectedDateTime.slice(0, 10));
     this.sendNotifications();
   }
 

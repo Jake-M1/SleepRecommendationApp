@@ -85,17 +85,6 @@ export class ShareRecService {
           this.recentModel.set('caffeine', data['caffeine']);
           this.recentModel.set('caffeine_before', data['caffeine_before']);
           this.recentModel.set('caffeine_after', data['caffeine_after']);
-          // this.recentModel.set('total_sleep_duration'] = data['total_sleep_duration'];
-          // this.recentModel['awake_time'] = data['awake_time'];
-          // this.recentModel['bedtime_start'] = this.convertDate(data['bedtime_start']);
-          // this.recentModel['bedtime_end'] = this.convertDate(data['bedtime_end']);
-          // this.recentModel['steps'] = data['steps'];
-          // this.recentModel['alcohol'] = data['alcohol'];
-          // this.recentModel['water'] = data['water'];
-          // this.recentModel['sugar'] = data['sugar'];
-          // this.recentModel['caffeine'] = data['caffeine'];
-          // this.recentModel['caffeine_before'] = data['caffeine_before'];
-          // this.recentModel['caffeine_after'] = data['caffeine_after'];
           this.percentDiffs['total_sleep_duration'] = this.percentDifference(this.recentModel.get('total_sleep_duration'), this.personalModel['total_sleep_duration']);
           this.percentDiffs['awake_time'] = this.percentDifference(this.recentModel.get('awake_time'), this.personalModel['awake_time']);
           this.percentDiffs['bedtime_start'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_start')), this.timeToSeconds(this.personalModel['bedtime_start']));
@@ -121,16 +110,6 @@ export class ShareRecService {
           this.recentModel.set('caffeine', data['caffeine']);
           this.recentModel.set('caffeine_before', data['caffeine_before']);
           this.recentModel.set('caffeine_after', data['caffeine_after']);
-          // this.recentModel['awake_time'] = data['awake_time'];
-          // this.recentModel['bedtime_start'] = this.convertDate(data['bedtime_start']);
-          // this.recentModel['bedtime_end'] = this.convertDate(data['bedtime_end']);
-          // this.recentModel['steps'] = data['steps'];
-          // this.recentModel['alcohol'] = data['alcohol'];
-          // this.recentModel['water'] = data['water'];
-          // this.recentModel['sugar'] = data['sugar'];
-          // this.recentModel['caffeine'] = data['caffeine'];
-          // this.recentModel['caffeine_before'] = data['caffeine_before'];
-          // this.recentModel['caffeine_after'] = data['caffeine_after'];
           this.percentDiffs['total_sleep_duration'] = this.percentDifference(this.recentModel.get('total_sleep_duration'), this.personalModel['total_sleep_duration']);
           this.percentDiffs['awake_time'] = this.percentDifference(this.recentModel.get('awake_time'), this.personalModel['awake_time']);
           this.percentDiffs['bedtime_start'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_start')), this.timeToSeconds(this.personalModel['bedtime_start']));
@@ -146,8 +125,32 @@ export class ShareRecService {
         }
 
       });
+
       for(let i = 9; i >= 0; i--){
-        if(this.count == 5){
+        if(this.sortedModel[i][0] == "bedtime_end"){
+          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) > this.timeToSeconds(this.personalModel['bedtime_end'])){
+            this.recs.push("Try waking up earlier at around " + this.personalModel['bedtime_end'] + " hours.");
+            this.recValues.push('bedtime_end');
+          }
+          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) < this.timeToSeconds(this.personalModel['bedtime_end'])){
+            this.recs.push("Try waking up later at around " + this.personalModel['bedtime_end'] + " hours.");
+            this.recValues.push('bedtime_end');
+          }
+        }
+        if(this.sortedModel[i][0] == "bedtime_start"){
+          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) > this.timeToSeconds(this.personalModel['bedtime_start'])){
+            this.recs.push("Sleep earlier. Try to sleep at around " + this.personalModel['bedtime_start'] + " hours.");
+            this.recValues.push('bedtime_start');
+          }
+          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) < this.timeToSeconds(this.personalModel['bedtime_start'])){
+            this.recs.push("Try sleeping later at around " + this.personalModel['bedtime_start'] + " hours.");
+            this.recValues.push('bedtime_start');
+          }
+        }
+      }
+
+      for(let i = 9; i >= 0; i--){
+        if(this.count == 3){
           break;
         }
         if(this.sortedModel[i][0] == "caffeine"){
@@ -190,16 +193,6 @@ export class ShareRecService {
             this.count++;
           }
         }
-        if(this.sortedModel[i][0] == "bedtime_end"){
-          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) > this.timeToSeconds(this.personalModel['bedtime_end'])){
-            this.recs.push("Try waking up earlier at around " + this.personalModel['bedtime_end'] + " hours.");
-            this.recValues.push('bedtime_end');
-          }
-          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) < this.timeToSeconds(this.personalModel['bedtime_end'])){
-            this.recs.push("Try waking up later at around " + this.personalModel['bedtime_end'] + " hours.");
-            this.recValues.push('bedtime_end');
-          }
-        }
         if(this.sortedModel[i][0] == "water"){
           if(this.recentModel.get('water') > this.personalModel['water']){
             this.recs.push("Drink less water before bed.");
@@ -222,16 +215,6 @@ export class ShareRecService {
             this.recs.push("Increase your sugar intake to around " + this.personalModel['sugar'] + " grams.");
             this.recValues.push('sugar');
             this.count++;
-          }
-        }
-        if(this.sortedModel[i][0] == "bedtime_start"){
-          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) > this.timeToSeconds(this.personalModel['bedtime_start'])){
-            this.recs.push("Sleep earlier. Try to sleep at around " + this.personalModel['bedtime_start'] + " hours.");
-            this.recValues.push('bedtime_start');
-          }
-          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) < this.timeToSeconds(this.personalModel['bedtime_start'])){
-            this.recs.push("Try sleeping later at around " + this.personalModel['bedtime_start'] + " hours.");
-            this.recValues.push('bedtime_start');
           }
         }
       }
@@ -522,6 +505,162 @@ export class ShareRecService {
       }
     }
 
-    //console.log(this.recsRanges);
+  }
+
+
+  generateNewRecommendations(newRecentDateStr: string)
+  {
+    this.firestore.collection('/personal_model').snapshotChanges().subscribe(res =>{
+      this.model = res.map((e:any) =>{
+        return new PersonalModelData(e.payload.doc.data());
+      })
+      this.model?.forEach((data) => {
+        this.personalModel = new PersonalModelData(data);
+      })
+      this.personalFlag = 1;
+    })
+
+    this.firestore.collection('/data').snapshotChanges().subscribe(res =>{
+      this.sleepdata = res.map((e:any) =>{
+        return new SleepData(e.payload.doc.data());
+      })
+      this.sleepdata?.forEach((data) =>{
+        this.date = this.createDate(data['date']);
+
+        if(this.date.toISOString().slice(0, 10) === newRecentDateStr){
+          this.recentDate = this.date;
+          this.recentModel.set('total_sleep_duration', data['total_sleep_duration']);
+          this.recentModel.set('awake_time', data['awake_time']);
+          this.recentModel.set('bedtime_start', this.convertDate(data['bedtime_start']));
+          this.recentModel.set('bedtime_end', this.convertDate(data['bedtime_end']));
+          this.recentModel.set('steps', data['steps']);
+          this.recentModel.set('alcohol', data['alcohol']);
+          this.recentModel.set('water', data['water']);
+          this.recentModel.set('sugar', data['sugar']);
+          this.recentModel.set('caffeine', data['caffeine']);
+          this.recentModel.set('caffeine_before', data['caffeine_before']);
+          this.recentModel.set('caffeine_after', data['caffeine_after']);
+          this.percentDiffs['total_sleep_duration'] = this.percentDifference(this.recentModel.get('total_sleep_duration'), this.personalModel['total_sleep_duration']);
+          this.percentDiffs['awake_time'] = this.percentDifference(this.recentModel.get('awake_time'), this.personalModel['awake_time']);
+          this.percentDiffs['bedtime_start'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_start')), this.timeToSeconds(this.personalModel['bedtime_start']));
+          this.percentDiffs['bedtime_end'] = this.percentDifference(this.timeToSeconds(this.recentModel.get('bedtime_end')), this.timeToSeconds(this.personalModel['bedtime_end']));
+          this.percentDiffs['steps'] = this.percentDifference(this.recentModel.get('steps'), this.personalModel['steps']);
+          this.percentDiffs['alcohol'] = this.percentDifference(this.recentModel.get('alcohol'), this.personalModel['alcohol']);
+          this.percentDiffs['water'] = this.percentDifference(this.recentModel.get('water'), this.personalModel['water']);
+          this.percentDiffs['sugar'] = this.percentDifference(this.recentModel.get('sugar'), this.personalModel['sugar']);
+          this.percentDiffs['caffeine'] = this.percentDifference(this.recentModel.get('caffeine'), this.personalModel['caffeine']);
+          this.percentDiffs['caffeine_before'] = this.percentDifference(this.recentModel.get('caffeine_before'), this.personalModel['caffeine_before']);
+          this.percentDiffs['caffeine_after'] = this.percentDifference(this.recentModel.get('caffeine_after'), this.personalModel['caffeine_after']);
+          this.sortedModel = Object.entries(this.percentDiffs).sort((a,b) => a[1] - b[1]);
+        }
+
+      });
+
+      while (this.recs.length > 0)
+      {
+        this.recs.pop();
+      }
+      while (this.recValues.length > 0)
+      {
+        this.recValues.pop();
+      }
+      this.count = 0;
+
+      for(let i = 9; i >= 0; i--){
+        if(this.sortedModel[i][0] == "bedtime_end"){
+          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) > this.timeToSeconds(this.personalModel['bedtime_end'])){
+            this.recs.push("Try waking up earlier at around " + this.personalModel['bedtime_end'] + " hours.");
+            this.recValues.push('bedtime_end');
+          }
+          if(this.timeToSeconds(this.recentModel.get('bedtime_end')) < this.timeToSeconds(this.personalModel['bedtime_end'])){
+            this.recs.push("Try waking up later at around " + this.personalModel['bedtime_end'] + " hours.");
+            this.recValues.push('bedtime_end');
+          }
+        }
+        if(this.sortedModel[i][0] == "bedtime_start"){
+          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) > this.timeToSeconds(this.personalModel['bedtime_start'])){
+            this.recs.push("Sleep earlier. Try to sleep at around " + this.personalModel['bedtime_start'] + " hours.");
+            this.recValues.push('bedtime_start');
+          }
+          if(this.timeToSeconds(this.recentModel.get('bedtime_start')) < this.timeToSeconds(this.personalModel['bedtime_start'])){
+            this.recs.push("Try sleeping later at around " + this.personalModel['bedtime_start'] + " hours.");
+            this.recValues.push('bedtime_start');
+          }
+        }
+      }
+
+      for(let i = 9; i >= 0; i--){
+        if(this.count == 3){
+          break;
+        }
+        if(this.sortedModel[i][0] == "caffeine"){
+          if(this.recentModel.get('caffeine') > this.personalModel['caffeine']){
+            this.recs.push("Reduce caffeine intake to around " + this.personalModel['caffeine'] + "mg.");
+            this.recValues.push('caffeine');
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "caffeine_after"){
+          if(this.recentModel.get('caffeine_after') > this.personalModel['caffeine_after']){
+            this.recs.push("Reduce caffeine intake after 6pm to around " + this.personalModel['caffeine_after'] + "mg.");
+            this.recValues.push('caffeine_after');
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "caffeine_before"){
+          if(this.recentModel.get('caffeine_before') > this.personalModel['caffeine_before']){
+            this.recs.push("Reduce caffeine intake before 6pm to around " + this.personalModel['caffeine_before'] + "mg.");
+            this.recValues.push('caffeine_before');
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "alcohol"){
+          if(this.recentModel.get('alcohol') > this.personalModel['alcohol']){
+            this.recs.push("Reduce alcohol consumption to around " + this.personalModel['alcohol'] + " grams.");
+            this.recValues.push('alcohol');
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "steps"){
+          if(this.recentModel.get('steps') > this.personalModel['steps']){
+            this.recs.push("Reduce your daily steps to around " + this.personalModel['steps'] + " steps.");
+            this.recValues.push('steps');
+            this.count++;
+          }
+          if(this.recentModel.get('steps') < this.personalModel['steps']){
+            this.recs.push("Increase your daily steps to around " + this.personalModel['steps'] + " steps.");
+            this.recValues.push('steps');
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "water"){
+          if(this.recentModel.get('water') > this.personalModel['water']){
+            this.recs.push("Drink less water before bed.");
+            this.recValues.push('water');
+            this.count++;
+          }
+          if(this.recentModel.get('water') < this.personalModel['water']){
+            this.recs.push("Increase your water intake to around " + this.personalModel['water'] + " grams.");
+            this.recValues.push('water');
+            this.count++;
+          }
+        }
+        if(this.sortedModel[i][0] == "sugar"){
+          if(this.recentModel.get('sugar') > this.personalModel['sugar']){
+            this.recs.push("Reduce your sugar intake to around " + this.personalModel['sugar'] + " grams.");
+            this.recValues.push('sugar');
+            this.count++;
+          }
+          if(this.recentModel.get('sugar') < this.personalModel['sugar']){
+            this.recs.push("Increase your sugar intake to around " + this.personalModel['sugar'] + " grams.");
+            this.recValues.push('sugar');
+            this.count++;
+          }
+        }
+      }
+
+      this.generateRecommendRanges();
+      this.generateRecRangeMessages();
+    });
   }
 }
