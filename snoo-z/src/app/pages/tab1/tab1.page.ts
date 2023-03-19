@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthenticationService } from 'src/app/services/authentication.service';
 import {formatDate} from '@angular/common';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { UserData } from 'src/app/data/user-data';
+import { SleepData } from 'src/app/data/sleep-data';
 
 @Component({
   selector: 'app-tab1',
@@ -10,25 +10,23 @@ import { UserData } from 'src/app/data/user-data';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page implements OnInit {
-  public myDate: any;
+  public myDate: any = new Date("2022-06-11T10:00:00").toISOString();
   private selectedDate: string = formatDate(new Date(), 'yyyy-MM-dd', 'en');
   private sampleData = new Map();
-  private user:UserData[] | undefined;
-  
-  constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {
-    //this.sampleData.set("2023-02-20", ["83", "23670", "2023-02-19T22:51:07-07:00", "2023-02-20T06:00:07-07:00", "0"]);
-    //this.sampleData.set("2023-02-21", ["94", "29190", "2023-02-20T21:36:31-07:00", "2023-02-21T06:07:31-07:00", "1"]);
-  }
+  private sleepdata:SleepData[] | undefined;
+
+  constructor(private firestore: AngularFirestore, private authService: AuthenticationService) { }
+
   ngOnInit(): void {
-    this.firestore.collection('/user').snapshotChanges().subscribe(res =>{
-      this.user = res.map((e:any) =>{
-           return new UserData(e.payload.doc.data());
+    this.firestore.collection('/data').snapshotChanges().subscribe(res =>{
+      this.sleepdata = res.map((e:any) =>{
+           return new SleepData(e.payload.doc.data());
       })
-      this.user?.forEach((data) =>{
-        this.sampleData.set(data['date'], [data['sleep_score'], data['total_sleep_duration'], data['bedtime_start'], data['bedtime_end'], 0]);
+      this.sleepdata?.forEach((data) =>{
+        this.sampleData.set(data['date'], [data['sleep_score'], data['total_sleep_duration'], data['bedtime_start'], data['bedtime_end'], data['caffeine']]);
       });
     });
-    
+
   }
 
   setDate()
@@ -70,9 +68,5 @@ export class Tab1Page implements OnInit {
     {
       return ["N/A", "N/A", "N/A", "N/A", "N/A"]
     }
-  }
-
-  logout() {
-    //this.authService.logout();
   }
 }

@@ -7,6 +7,8 @@ import { AuthenticationService } from '../services/authentication.service';
 import { ToastController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import {formatDate} from '@angular/common';
+import { ShareRecService } from '../services/share-rec.service';
+
 
 @Component({
   selector: 'app-home',
@@ -21,15 +23,22 @@ export class HomePage implements OnInit {
   tempData:SleepData[] | undefined;
   personalModel:PersonalModelData | undefined;
 
-  public myDate: any;
+  public myDate: any = new Date(2022, 5, 11).toISOString();
   private selectedDateTime: string = this.convertToIonicDate(formatDate(new Date(), 'yyyy-MM-dd hh:mma', 'en'));
 
   private percentDiffs: Array<Array<string | number>> = [];
   private recentValues: Map<any, any> = new Map<string, number | string>();
   private idealValues: Map<any, any> = new Map<string, number | string>();
-  private recomendValues: Map<any, any> = new Map<string, Array<number | string>>();
+  //private recomendValues: Map<any, any> = new Map<string, Array<number | string>>();
+  private recomendValues:string[] = [];
+  private recFactors:string[] = [];
 
-  constructor(private firestore: AngularFirestore, private authService: AuthenticationService, private toastController: ToastController, private router: Router) { }
+  public myPrefBedTime: any = new Date("2023-01-01T14:00:00").toISOString();
+  public myPrefWakeTime: any = new Date("2023-01-01T22:00:00").toISOString();
+  private prefBedTime: string = "22:00:00";
+  private prefWakeTime: string = "6:00:00";
+
+  constructor(private firestore: AngularFirestore, private authService: AuthenticationService, private toastController: ToastController, private router: Router, private shareRec: ShareRecService) { }
 
   ngOnInit() {
 
@@ -53,7 +62,8 @@ export class HomePage implements OnInit {
         this.personalModel = new PersonalModelData(res.data());   //personalmodel contains the optimized values that we generated
     });
 
-    // TEMP ------------------------------------------------------------------------------------
+    // TEMP Testing
+    /*
     this.recentValues.set("total_sleep_duration", 29130);
     this.recentValues.set("awake_time", 2010.0);
     this.recentValues.set("bedtime_start", "22:00:51");
@@ -89,6 +99,9 @@ export class HomePage implements OnInit {
     this.idealValues.set("caffeine", 334.47);
     this.idealValues.set("caffeine_before", 332.25);
     this.idealValues.set("caffeine_after", 2.22);
+    */
+
+    this.sendNotifications();
   }
 
   logout(){
@@ -100,7 +113,7 @@ export class HomePage implements OnInit {
   async presentToastMoreSleep(position: 'top' | 'middle' | 'bottom', messageStr: string) {
     const toast = await this.toastController.create({
       message: messageStr,
-      duration: 10000,
+      duration: 50000,
       position: position,
       buttons: [
         {
@@ -121,10 +134,7 @@ export class HomePage implements OnInit {
 
   setDate()
   {
-    this.displayDate();
     this.selectedDateTime = this.parseDate(this.myDate);
-    this.displayDate();
-
     this.sendNotifications();
   }
 
@@ -164,13 +174,89 @@ export class HomePage implements OnInit {
 
   sendNotifications()
   {
-    this.getRecommendValues();
+    this.recomendValues = this.shareRec.getRecsRanges();
+    this.recFactors = this.shareRec.getRecVals();
 
-    var hour = parseInt(this.selectedDateTime.slice(11,13));
-    console.log(hour);
-    if (hour == 11)
+    for (let i = 0; i < this.recomendValues.length; i++)
     {
-      this.presentToastMoreSleep("middle", "Go to bed earlier");
+      var hour = parseInt(this.selectedDateTime.slice(11,13));
+      if (hour == 12) // Go to bed rec
+      {
+        if (this.recFactors[i] === "bedtime_start")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 17) // Wake up rec
+      {
+        if (this.recFactors[i] === "bedtime_end")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 16) // Sleep duration rec
+      {
+        if (this.recFactors[i] === "total_sleep_duration")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 18) // Awake time rec
+      {
+        if(this.recFactors[i] === "awake_time")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 10) // Steps rec
+      {
+        if (this.recFactors[i] === "steps")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 14) // Alcohol rec
+      {
+        if (this.recFactors[i] === "alcohol")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 11) // Water rec
+      {
+        if (this.recFactors[i] === "water")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 13) // Sugar rec
+      {
+        if (this.recFactors[i] === "sugar")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 12) // Caffeine rec
+      {
+        if (this.recFactors[i] === "caffeine")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 9) // Caffeine before 6 rec
+      {
+        if (this.recFactors[i] === "caffeine_before")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
+      else if (hour == 18) // Caffeine after 6 rec
+      {
+        if (this.recFactors[i] === "caffeine_after")
+        {
+          this.presentToastMoreSleep("middle", this.recomendValues[i]);
+        }
+      }
     }
   }
 
@@ -219,81 +305,20 @@ export class HomePage implements OnInit {
     return totalSeconds;
   }
 
-  getRecommendValues()
+  setPrefBedTime()
   {
-    this.recomendValues.clear();
-    var factor;
-    var recAmount;
-    var recAmountMin;
-    var recAmountMax;
-    for (let i = 0; i < 5; i++)
-    {
-      factor = this.percentDiffs[i][0];
-      if (factor === "bedtime_start" || factor === "bedtime_end")
-      {
-        recAmount = Math.floor((this.timeToSeconds(this.recentValues.get(factor)) + this.timeToSeconds(this.idealValues.get(factor))) / 2);
-        recAmountMin = this.secondsToTime(recAmount - 1800);
-        recAmountMax = this.secondsToTime(recAmount + 1800);
-        recAmount = this.secondsToTime(recAmount);
-      }
-      else if (factor === "total_sleep_duration")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 1800;
-        recAmountMax = recAmount + 1800;
-      }
-      else if (factor === "awake_time")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 100;
-        recAmountMax = recAmount + 100;
-      }
-      else if (factor === "steps")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 250;
-        recAmountMax = recAmount + 250;
-      }
-      else if (factor === "alcohol")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 1;
-        recAmountMax = recAmount + 1;
-      }
-      else if (factor === "water")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 200;
-        recAmountMax = recAmount + 200;
-      }
-      else if (factor === "sugar")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 100;
-        recAmountMax = recAmount + 100;
-      }
-      else if (factor === "caffeine")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 10;
-        recAmountMax = recAmount + 10;
-      }
-      else if (factor === "caffeine_before")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 10;
-        recAmountMax = recAmount + 10;
-      }
-      else if (factor === "caffeine_after")
-      {
-        recAmount = (this.recentValues.get(factor) + this.idealValues.get(factor)) / 2;
-        recAmountMin = recAmount - 5;
-        recAmountMax = recAmount + 5;
-      }
+    this.prefBedTime = this.parseTime(this.myPrefBedTime);
+    this.shareRec.setPrefBedTime(this.prefBedTime);
+  }
 
-      this.recomendValues.set(factor, [recAmountMin, recAmountMax]);
-    }
+  setPrefWakeTime()
+  {
+    this.prefWakeTime = this.parseTime(this.myPrefWakeTime);
+    this.shareRec.setPrefWakeTime(this.prefWakeTime);
+  }
 
-    console.log(this.recomendValues);
+  parseTime(ionicDate: string)
+  {
+    return ionicDate.slice(11, 19);
   }
 }

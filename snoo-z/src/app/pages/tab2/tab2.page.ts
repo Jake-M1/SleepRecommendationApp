@@ -4,7 +4,7 @@ import { Chart } from 'chart.js/auto';
 import {formatDate} from '@angular/common';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { AuthenticationService } from 'src/app/services/authentication.service';
-import { UserData } from 'src/app/data/user-data';
+import { SleepData } from 'src/app/data/sleep-data';
 
 
 @Component({
@@ -34,31 +34,21 @@ export class Tab2Page implements OnInit{
 
   private sampleData = new Map();
   public myDate1: any;
-  private currentDate: string = formatDate(new Date(), 'yyyy-MM-dd', 'en');
-  private user:UserData[] | undefined;
-  
-  constructor(private firestore: AngularFirestore, private authService: AuthenticationService) {
-    
-    /*
-    this.sampleData.set("2023-02-15", ["83", "23670", "2023-02-14T22:51:07-07:00", "2023-02-15T06:00:07-07:00", "0"]);
-    this.sampleData.set("2023-02-16", ["83", "23670", "2023-02-15T22:51:07-07:00", "2023-02-16T06:00:07-07:00", "0"]);
-    this.sampleData.set("2023-02-17", ["83", "23670", "2023-02-16T22:51:07-07:00", "2023-02-17T06:00:07-07:00", "0"]);
-    this.sampleData.set("2023-02-18", ["83", "23670", "2023-02-17T22:51:07-07:00", "2023-02-18T06:00:07-07:00", "0"]);
-    this.sampleData.set("2023-02-19", ["83", "23670", "2023-02-18T22:51:07-07:00", "2023-02-19T06:00:07-07:00", "0"]);
-    this.sampleData.set("2023-02-20", ["83", "23670", "2023-02-19T22:51:07-07:00", "2023-02-20T06:00:07-07:00", "0"]);
-    this.sampleData.set("2023-02-21", ["94", "29190", "2023-02-20T21:36:31-07:00", "2023-02-21T06:07:31-07:00", "1"]);
-    */
-  }
+  private currentDate: string = formatDate(new Date(2022, 5, 11), 'yyyy-MM-dd', 'en');
+  private sleepdata:SleepData[] | undefined;
+
+  constructor(private firestore: AngularFirestore, private authService: AuthenticationService) { }
+
   ngOnInit(): void {
-    this.firestore.collection('/user').snapshotChanges().subscribe(res =>{
-      this.user = res.map((e:any) =>{
-           return new UserData(e.payload.doc.data());
-           
+    this.firestore.collection('/data').snapshotChanges().subscribe(res =>{
+      this.sleepdata = res.map((e:any) =>{
+           return new SleepData(e.payload.doc.data());
+
       })
-      this.user?.forEach((data) =>{
-        this.sampleData.set(data['date'], [data['sleep_score'], data['total_sleep_duration'], data['bedtime_start'], data['bedtime_end'], 0]);
+      this.sleepdata?.forEach((data) =>{
+        this.sampleData.set(data['date'], [data['sleep_score'], data['total_sleep_duration'], data['bedtime_start'], data['bedtime_end'], data['caffeine']]);
       });
-   
+
     });
   }
 
@@ -79,8 +69,8 @@ export class Tab2Page implements OnInit{
 
     while (d > 0)
     {
-      var curDay = new Date();
-      var addDay = new Date();
+      var curDay = new Date(2022, 5, 11);
+      var addDay = new Date(2022, 5, 11);
       addDay.setDate(curDay.getDate() - d + 1);
       labels.push(formatDate(addDay, 'yyyy-MM-dd', 'en'));
       d--;

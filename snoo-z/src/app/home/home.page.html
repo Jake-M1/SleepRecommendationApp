@@ -22,6 +22,28 @@
     </ion-card-content>
   </ion-card>
 
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title>Select a goal/preferred time to go to bed below:</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-datetime color="primary" presentation="time" [preferWheel]="true" displayFormat="h:mm A" [(ngModel)]="myPrefBedTime" (ionChange)="setPrefBedTime()"></ion-datetime>
+
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title>Select a goal/preferred time to wake up below:</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-datetime color="primary" presentation="time" [preferWheel]="true" displayFormat="h:mm A" [(ngModel)]="myPrefWakeTime" (ionChange)="setPrefWakeTime()"></ion-datetime>
+
+  <ion-card color="medium">
+    <ion-card-header>
+      <ion-card-title>Select a date/time to simulate recommendations:</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
   <ion-datetime [(ngModel)]="myDate" (ionChange)="setDate()"></ion-datetime>
 
 </ion-content>
